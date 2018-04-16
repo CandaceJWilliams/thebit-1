@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,700');
+
+h1 {
+  font-family: 'Barlow', sans-serif;
+  color:black;
+  font-weight:700;
+}
+
+.mb-5 {
+  font-family: 'Barlow', sans-serif;
+}
+
+p {
+  font-family: 'Barlow', sans-serif;
+  font-size:18px !important;
+  color:black;
+  line-height: 1.5rem;
+}
+
+p.mb-5 {
+  font-family: Slack-Averta,appleLogo,sans-serif;
+}
+
+h1.mb-3{
+  font-size:90px !important;
+}
+
+button.btn.btn-secondary {
+  padding:15px 25px 15px 25px !important;
+  background-color:#ed569d;
+  font-family:'Barlow', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size:14px;
+  border-color:#cf4887;
+}
+
+button.btn.btn-secondary:hover {
+  background-color:#cf4887 !important;
+  }
+
+.social-icons ul>li>a {
+  background-color:white;
+  color:black;
+}
+
+.social-icons ul>li>a:hover {
+  background-color:white;
+  color:#eb4c96;
+}
+
+
+.overlay {
+  background-color:white !important;
+  opacity:100 !important;
+}
+
+body{
+  background-color:white;
+}
+
+.text-muted{
+  font-family: 'Barlow', sans-serif;
+  color:black;
+  z-index: 1;
+}
+
+#logo {
+  padding:10px 10px 10px 20px;
+}
+
+.masthead{
+  width:100% !important;
+}
+
+.header.clearfix {
+  border-style:solid;
+  border-bottom-color: lightgrey;
+  border-width:0px 0px 1px 0px;
+}
