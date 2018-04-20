@@ -136,6 +136,8 @@ body {
 
 @media (min-width: 768px) {
   .social-icons {
+    border-style: solid;
+    border-color: black;
     margin: 0;
     position: absolute;
     right: 2.5rem;

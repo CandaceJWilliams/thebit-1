@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow:400,700');
 
+body {
+  overflow-y: hidden;
+}
+
 h1 {
   font-family: 'Barlow', sans-serif;
   color:black;
@@ -15,6 +19,8 @@ p {
   font-size:18px !important;
   color:black;
   line-height: 1.5rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 p.mb-5 {
@@ -37,7 +43,7 @@ button.btn.btn-secondary {
 
 button.btn.btn-secondary:hover {
   background-color:#cf4887 !important;
-  }
+}
 
 .social-icons ul>li>a {
   background-color:white;
@@ -47,6 +53,12 @@ button.btn.btn-secondary:hover {
 .social-icons ul>li>a:hover {
   background-color:white;
   color:#eb4c96;
+}
+
+.social-icons {
+  height: 50%;
+  top: 20%;
+  padding-bottom: 15px;
 }
 
 
@@ -77,4 +89,133 @@ body{
   border-style:solid;
   border-bottom-color: lightgrey;
   border-width:0px 0px 1px 0px;
+}
+
+
+/*Additional breakpoint*/
+@media (max-width: 576px) {
+
+
+  #large_image {
+    display: none;
+  }
+
+  #small_image {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin: auto;
+  }
+
+  h1.mb-3 {
+    font-size: 50px !important;
+    text-align: center !important;
+  }
+
+  h1 {
+    text-align: center !important;
+  }
+
+  p {
+    width: ;
+    font-size: 16px !important;
+  }
+  
+  .textbox {
+    width: 100%;
+    text-align: center !important;
+  }
+
+  .social-icons {
+    top: 3%;
+  }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+
+  #large_image {
+    display: none;
+  }
+
+  #small_image {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1.mb-3 {
+    font-size: 60px !important;
+  }
+
+  
+  .social-icons {
+    top: 80%;
+  }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+ 
+
+  #large_image {
+    display: none;
+  }
+
+  #small_image {
+    position: relative;
+    display: block;
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  h1.mb-3 {
+    font-size: 70px !important;
+  }
+
+  .social-icons {
+    top: 20%;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+
+  #large_image {
+    display: block;
+  }
+
+  #small_image {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  
+
+  #large_image {
+    display: block;
+  }
+
+  #small_image {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  .social-icons {
+    top: 20%;
+  }
 }
