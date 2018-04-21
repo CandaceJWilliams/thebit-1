@@ -1,0 +1,152 @@
+.top {
+	margin-top: 1%;
+}
+
+.header_button {
+	/*border-style: solid;
+	border-color: black;*/
+	text-align: center;
+	font-weight: lighter;
+}
+
+.header.clearfix {
+  border-width:0px 0px 1px 0px;
+}
+
+#logo {
+  padding:10px 10px 10px 20px;
+}
+
+h1 {
+  font-family: 'Barlow', sans-serif;
+  color:black;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h1, h2, h3, p {
+	font-family: 'Barlow', sans-serif;
+}
+
+a {
+	color: #d1d1d1;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #d1d1d1;
+	text-decoration: none;
+	border-bottom-style: solid;
+	border-bottom-color: #f8ae6b;
+	border-bottom-width: 5px;
+	border-radius: 3px;
+}
+
+/*Regular Categories*/
+.category {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.writing {
+	font-weight: 500;
+}
+
+/*Featured Categories*/
+
+#featured_section {
+	margin-top: 10%;
+}
+
+.featured_category {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.featured_title {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.featured_writing {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+
+#image {
+	top: 0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.btn.btn-secondary {
+  padding: 5px 8px 5px 8px !important;
+  background-color: #f8ae6b;
+  font-family:'Barlow', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size:14px;
+  border-color: #ac7741;
+}
+
+button.btn.btn-secondary:hover {
+  background-color: #cf4887 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	/*div {
+		border-style: solid;
+		border-color: red;
+	}*/
+	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	/*div {
+		border-style: solid;
+		border-color: orange;
+	}*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	/*div {
+		border-style: solid;
+		border-color: yellow;
+	}*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	/*div {
+		border-style: solid;
+		border-color: green;
+	}*/
+}
