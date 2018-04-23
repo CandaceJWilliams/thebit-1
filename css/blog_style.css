@@ -1,6 +1,9 @@
 footer.page-footer.font-small.indigo.pt-0{
   background-color:#faaf6b;
 }
+.social {
+  margin-right:10px;
+}
 
 .left {
   border-right-style: dashed;
