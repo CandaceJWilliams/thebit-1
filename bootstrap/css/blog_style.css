@@ -44,7 +44,7 @@ a:hover {
 
 /*Regular Categories*/
 .category {
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: bold;
 }
 
@@ -54,7 +54,9 @@ a:hover {
 }
 
 .writing {
-	font-weight: 500;
+	font-weight: 300;
+    line-height: 19px;
+    color: #808080;
 }
 
 /*Featured Categories*/
@@ -64,7 +66,7 @@ a:hover {
 }
 
 .featured_category {
-	font-size: 25px;
+	font-size: 18px;
 	font-weight: bold;
 }
 
@@ -75,7 +77,9 @@ a:hover {
 
 .featured_writing {
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 300;
+    line-height: 23px;
+    color: #808080;
 }
 
 
@@ -94,28 +98,12 @@ button.btn.btn-secondary {
   letter-spacing: 1.5px;
   font-size:14px;
   border-color: #ac7741;
+  box-shadow: 5px 10px lightgrey;
 }
 
 button.btn.btn-secondary:hover {
-  background-color: #cf4887 !important;
+  background-color: #ac7741 !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -141,6 +129,13 @@ button.btn.btn-secondary:hover {
 		border-style: solid;
 		border-color: yellow;
 	}*/
+    .navbar-expand-lg .navbar-nav .nav-link{
+        margin-right:2.5rem;
+    }
+    div#navbarsExample10 {
+        margin-top:15px;
+        margin-bottom:15px;
+    }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
