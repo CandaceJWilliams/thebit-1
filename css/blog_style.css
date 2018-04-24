@@ -1,8 +1,10 @@
-footer.page-footer.font-small.indigo.pt-0{
-  background-color:#faaf6b;
+
+.orange {
+  background-color: #f8ae6b;
 }
-.social {
-  margin-right:10px;
+
+.white {
+  background-color: white;
 }
 
 .left {
@@ -94,6 +96,15 @@ input[type="text"]{
   font-weight:500;
 }
 
+/*Footer Styles*/
+
+footer.page-footer.font-small.indigo.pt-0{
+  background-color:#faaf6b;
+}
+.social {
+  margin-right:10px;
+}
+
 
 /*Featured Categories*/
 
@@ -106,9 +117,28 @@ input[type="text"]{
 	font-weight: bold;
 }
 
-.featured_title {
-	font-size: 25px;
+.article_title {
+	font-size: 40px;
 	font-weight: bold;
+}
+
+li, p,ul .article_text {
+  font-size: 14px;
+}
+
+li {
+  font-size: 14px;
+}
+
+#keypoint {
+  font-weight: bold;
+  font-size:21px;
+
+}
+
+.row.white {
+  padding:40px;
+  box-shadow: 0px 8px 6px 0px lightgrey;
 }
 
 .featured_writing {
@@ -130,6 +160,15 @@ button.btn.btn-primary {
   background-color: #f8ae6b;
   border-color: black;
   color: black;
+}
+
+.secondary {
+  color: white;
+  text-decoration: none;
+}
+.secondary:hover {
+  color: white;
+  text-underline-position: none;
 }
 button.btn.btn-primary:hover {
   background-color: white;
