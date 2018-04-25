@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Just+Another+Hand|Patrick+Hand|Patrick+Hand+SC');
+
+.posted { 
+    background-image:url("../img/posted.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+h1.topic {
+    margin-top:100px;
+    margin-bottom:185px;
+    font-size:30px;
+    margin-left:40px;
+    font-family: 'Gochi Hand';
+    font-weight:lighter;
+    font-style: wrap;
+
+}
+
