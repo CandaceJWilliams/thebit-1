@@ -46,6 +46,8 @@ h3.topic_title {
     font-weight:bold;
     margin-top: 80px;
     margin-bottom: 80px;
+    border-bottom: 5px solid #e4dfe1;
+    border-bottom-width: 50%;
 }
 
 .row.white {
@@ -59,6 +61,14 @@ h3.topic_title {
 
 h1.subtitle {
     font-size:15px;
+}
+
+.topicLink {
+    color: white;
+}
+
+.topicLink:hover {
+    color: white;
 }
 
 
