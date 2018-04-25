@@ -8,12 +8,58 @@
 
 h1.topic {
     margin-top:100px;
-    margin-bottom:185px;
+    margin-bottom:100px;
     font-size:30px;
-    margin-left:40px;
-    font-family: 'Gochi Hand';
-    font-weight:lighter;
+    font-family: Barlow;
+    font-weight: 400;
     font-style: wrap;
+    text-align: center;
 
 }
+
+.pink {
+    background-color: #ed559c;
+}
+
+.blue {
+    background-color: #229EE0;
+}
+
+.hotpink {
+    background-color: #E2416F;
+}
+
+.darkblue {
+    background-color: #1A6CA3;
+}
+
+.col-md-2 {
+    margin:10px;
+}
+
+
+/* .Random CSS */
+
+h3.topic_title {
+    font-size: 80px;
+    text-align:right;
+    font-weight:bold;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.row.white {
+    box-shadow: 6px 6px 6px 8px lightgrey;
+}
+
+.row.white:hover {
+    background-color: #E2416F;
+    color: white;
+}
+
+h1.subtitle {
+    font-size:15px;
+}
+
+
 
