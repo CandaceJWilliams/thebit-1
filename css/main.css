@@ -109,11 +109,25 @@ body{
   border-width:0px 0px 1px 0px;
 }
 
+.textbox button {
+    text-align: left !important;
+}
+
+.button {
+  text-align: left;
+  padding: 10px;
+}
+
 
 /*Additional breakpoint*/
 @media (max-width: 576px) {
+
   body {
     overflow-y: visible;
+  }
+
+  .header-icons a {
+    margin-right: 1rem;
   }
 
   .social-icons {
@@ -126,9 +140,8 @@ body{
 
   #large_image {
     display: block;
-    width: 300px;
+    width: 260px;
     height: auto;
-    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
   }
