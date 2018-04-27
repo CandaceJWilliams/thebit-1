@@ -61,6 +61,24 @@ button.btn.btn-secondary:hover {
   padding-bottom: 15px;
 }
 
+.header-icons {
+  text-align: center;
+}
+
+.header-icons a {
+  margin-right: 1rem;
+  font-size: 2rem;
+  background-color: white;
+  color:black;
+}
+
+.header-icons a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: #eb4c96;
+}
+
+
 
 .overlay {
   background-color:white !important;
@@ -94,37 +112,50 @@ body{
 
 /*Additional breakpoint*/
 @media (max-width: 576px) {
+  body {
+    overflow-y: visible;
+  }
 
-
-  #large_image {
+  .social-icons {
     display: none;
   }
 
-  #small_image {
+  .header-icons {
     display: block;
-    width: 250px;
-    height: auto;
-    margin: auto;
   }
+
+  #large_image {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #small_image {
+    display: none;
+  }
+
 
   h1.mb-3 {
     font-size: 50px !important;
-    text-align: center !important;
-  }
-
-  h1 {
-    text-align: center !important;
+    padding: 10px;
   }
 
   p {
-    width: ;
     font-size: 16px !important;
+    padding: 10px;
+
   }
   
-  .textbox {
+  .textbox button {
     width: 100%;
     text-align: center !important;
   }
+
+
+
 
   .social-icons {
     top: 3%;
@@ -134,7 +165,13 @@ body{
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+  .header-icons {
+    display: block;
+  }
 
+  .social-icons {
+    display: none;
+  }
 
   #large_image {
     display: none;
@@ -161,7 +198,13 @@ body{
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
- 
+  .header-icons {
+    display: none;
+  }
+
+  .social-icons {
+    display: block;
+  }
 
   #large_image {
     display: none;
@@ -188,7 +231,13 @@ body{
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+  .header-icons {
+    display: none;
+  }
 
+  .social-icons {
+    display: block;
+  }
 
   #large_image {
     display: block;
@@ -203,7 +252,13 @@ body{
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-  
+  .header-icons {
+    display: none;
+  }
+
+  .social-icons {
+    display: block;
+  }
 
   #large_image {
     display: block;
