@@ -2,18 +2,18 @@
 <rss version="2.0">
 
     <channel>
-        <title>theBit</title>
+        <title>Blog</title>
         <link>http://localhost:4000</link>
         <description></description>
-        <lastBuildDate>Sat, 28 Apr 2018 21:38:23 -0400</lastBuildDate>
+        <lastBuildDate>Sun, 29 Apr 2018 13:09:16 -0400</lastBuildDate>
         
         <item>
             <description>
-                &lt;p&gt;Dictumst malesuada. Neque nonummy. Ipsum tristique donec viverra at vitae et, amet in. Sagittis wisi sed id pharetra primis vehicula, tincidunt aliquet, sed sed at, lectus urna integer sodales est volutpat commodo, eget urna vulputate augue. Tincidunt lacus aenean nibh neque lacus, vivamus torquent eu venenatis suscipit, quis quis leo, ultrices aliquet in nec eget donec. Massa fusce, a...
+                &lt;p&gt;Consequat ultricies eros purus itaque, erat rutrum, sed in sapien est, lacus nec sit eget, pellentesque laoreet dolores. Mi dui placeat eu. Ante eu vel magna dictum massa orci, tortor mauris at, et cras laoreet quam pretium urna, accumsan ut aliquet ipsum vitae neque, nunc sit eu donec ac aenean. Lorem dui fermentum, dolor donec magna tempor, ac integer arcu praesent sapien sit suscipi...
             </description>
             <pubDate>Sat, 28 Apr 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/social/2018/04/28/this-is-a-post-about-social-impact.html
+                http://localhost:4000/social/2018/04/28/this-is-a-post-about-social-impact/
             </guid>
         </item>
         
@@ -23,7 +23,7 @@
             </description>
             <pubDate>Sat, 28 Apr 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/data/2018/04/28/this-is-a-post-about-data-science.html
+                http://localhost:4000/data/2018/04/28/this-is-a-post-about-data-science/
             </guid>
         </item>
         
@@ -33,7 +33,7 @@
             </description>
             <pubDate>Sat, 28 Apr 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/art/2018/04/28/this-is-a-post-about-art.html
+                http://localhost:4000/art/2018/04/28/this-is-a-post-about-art/
             </guid>
         </item>
         
@@ -44,7 +44,7 @@
             </description>
             <pubDate>Sat, 28 Apr 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/featured/2018/04/28/how-to-plan-an-all-female-hackathon.html
+                http://localhost:4000/featured/2018/04/28/how-to-plan-an-all-female-hackathon/
             </guid>
         </item>
         
