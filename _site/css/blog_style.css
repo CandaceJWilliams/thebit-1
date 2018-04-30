@@ -49,12 +49,12 @@ p {
   font-size:14px;
 }
 
-a {
+.nav-link {
 	color: #d1d1d1;
 	text-decoration: none;
 }
 
-a:hover {
+.nav-link:hover {
 	color: #d1d1d1;
 	text-decoration: none;
 	border-bottom-style: solid;
@@ -172,6 +172,7 @@ button.btn.btn-primary {
 }
 button.btn.btn-primary:hover {
   background-color: white;
+  text-decoration: none;
 }
 
 button.btn.btn-secondary {
@@ -189,6 +190,10 @@ button.btn.btn-secondary {
 button.btn.btn-secondary:hover {
   background-color: lightgrey !important;
   box-shadow: 5px 10px #f8ae6b;
+}
+
+.continue {
+  vertical-align: bottom;
 }
 
 
@@ -226,8 +231,4 @@ button.btn.btn-secondary:hover {
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-	/*div {
-		border-style: solid;
-		border-color: green;
-	}*/
 }
