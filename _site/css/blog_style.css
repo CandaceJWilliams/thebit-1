@@ -1,4 +1,12 @@
 
+.topicLink:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #f8ae6b;
+  border-bottom-width: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
 .orange {
   background-color: #f8ae6b;
 }
