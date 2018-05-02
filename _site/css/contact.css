@@ -1,5 +1,5 @@
 h2 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .pad {
@@ -10,4 +10,29 @@ h3 {
   font-size:16px;
   font-weight:400;
 
+}
+
+/*Header Styles*/
+
+h2.subHeader{
+  font-size:30px;
+  font-weight:700;
+}
+
+h2.titleHeader{
+  font-size:15px;
+  line-height:11px;
+  font-weight:700;
+  letter-spacing: 1px;
+}
+
+.profilePic{
+  padding-right: 20px;
+  border:solid 2px #ed559c;
+  padding:10px;
+
+}
+
+a.titleHeader{
+  color:#ed559c;
 }

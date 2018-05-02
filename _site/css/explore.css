@@ -141,6 +141,20 @@ h1.subtitle {
     margin: 50px;
 }
 
+/*Header Styling*/
+
+h1.pageHeader {
+    font-size:40px;
+    margin-top:20px;
+}
+
+p.subHeader {
+    font-size:18px;
+}
+
+.hoverme{
+    margin-bottom:80px;
+}
 
 
 @-webkit-keyframes opacity {
