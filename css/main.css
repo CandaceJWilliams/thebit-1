@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow:400,700');
 
-body {
-  overflow-y: hidden;
-}
-
 h1 {
   font-family: 'Barlow', sans-serif;
   color:black;
@@ -135,10 +131,6 @@ div {
 /*Additional breakpoint*/
 @media (max-width: 576px) {
 
-  body {
-    overflow-y: visible;
-  }
-
   .header-icons a {
     margin-right: 1rem;
   }
@@ -166,7 +158,7 @@ div {
   #mobile_image {
     position: relative;
     display: block;
-    width: 400px;
+    width: 300px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -189,9 +181,6 @@ div {
     text-align: center !important;
   }
 
-
-
-
   .social-icons {
     top: 3%;
   }
@@ -212,13 +201,13 @@ div {
     display: none;
   }
 
-  #small_image {
+  #mobile_image {
     display: none;
     width: 0;
     height: 0;
   }
 
-  #mobile_image {
+  #small_image {
     position: relative;
     display: block;
     width: 250px;
