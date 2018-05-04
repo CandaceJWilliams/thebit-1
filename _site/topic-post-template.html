@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,7 +8,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>theBit | {{ page.title }}</title>
+        <title>theBit | Topic Post Template</title>
 
         <!-- Bootstrap core CSS -->
         <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -15,7 +16,7 @@
         <!-- Custom fonts for this template -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-        <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
         <link href="/css/blog_style.css" rel="stylesheet">
@@ -41,7 +42,7 @@
                         <a class="nav-link" href="/explore.html">Explore</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="{{ site.url }}"><img class="nav-link" src= "/img/logo.png" href="#" width="100px"></a>
+                        <a href="http://localhost:4000"><img class="nav-link" src= "/img/logo.png" href="#" width="100px"></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Shop</a>
@@ -67,21 +68,23 @@
                     <img id="image" src="/img/hand_nobackground.png" alt="Hands" width="500px" height="500px">
                 </div>
                 <div class="col-md-6">
-                    {% for post in site.categories.data limit:1 %}
                     <div id="featured_section">
-                        <h2 class="featured_category">DATA SCIENCE</h2>
-                        <h3 class="article_title">{{ post.title }}</h2>
+
+                        
+                            <h2 class="featured_category"></h2>
+                        
+
+
+                        <h3 class="article_title">Topic Post Template</h2>
                     </div>
-                    {% endfor %}
                 </div>
             </div>
 
             <div class="row white">
-                {% for post in site.categories.data limit: 1 %}
                 <div class="col-md-12">
-                    <p class="article_text">{{ post.content }}</p>
+                    <p class="article_text">
+</p>
                 </div>
-                {% endfor %}
             </div>
         </div>
 
@@ -97,7 +100,7 @@
                     <!--First column-->
                     <div class="col-md-6 text-center py-5 left">
                         <div class="mb-5 flex-center">
-                            <img src= "/img/logo.png" href="{{ site.baseurl }}" width="100px">
+                            <img src= "/img/logo.png" href="#" width="100px">
                         </div>
 
                         <div class="mb-5 flex-center">

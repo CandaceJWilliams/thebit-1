@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,7 +8,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>theBit | {{ page.title }}</title>
+        <title>theBit | This Is a Post About Art</title>
 
         <!-- Bootstrap core CSS -->
         <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -15,7 +16,7 @@
         <!-- Custom fonts for this template -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-        <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
         <link href="/css/blog_style.css" rel="stylesheet">
@@ -41,7 +42,7 @@
                         <a class="nav-link" href="/explore.html">Explore</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="{{ site.url }}"><img class="nav-link" src= "/img/logo.png" href="#" width="100px"></a>
+                        <a href="http://localhost:4000"><img class="nav-link" src= "/img/logo.png" href="#" width="100px"></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Shop</a>
@@ -67,24 +68,31 @@
                     <img id="image" src="/img/hand_nobackground.png" alt="Hands" width="500px" height="500px">
                 </div>
                 <div class="col-md-6">
-                    {% for post in site.categories.featured limit:1 %}
                     <div id="featured_section">
-                        <h2 class="featured_category">FEATURED</h2>
-                        <h3 class="article_title">{{ post.title }}</h2>
+
+                        
+                            <h2 class="featured_category">ART</h2>
+                        
+
+
+                        <h3 class="article_title">This Is a Post About Art</h2>
                     </div>
-                    {% endfor %}
                 </div>
             </div>
 
             <div class="row white">
-                {% for post in site.categories.featured limit: 1 %}
                 <div class="col-md-12">
-                    <p class="article_text">{{ post.content }}</p>
+                    <p class="article_text"><p>Lorem ipsum dolor sit amet, nulla enim, dolor porttitor pellentesque, facilisis est ullamcorper phasellus sunt nostra molestie. Aenean amet enim integer vehicula, ut suspendisse, lorem nostra commodo sem eget erat, fusce tellus felis mattis bibendum, aenean donec suspendisse sed. Tortor aliquam quam amet pellentesque aliquet. Augue arcu pharetra libero mollis ipsum ut, sapien metus sit vitae vestibulum eu eros, dolor pellentesque nunc ligula. Porta enim quis pellentesque in, porttitor ut a aenean tempor nunc, hendrerit aut urna id at orci, suspendisse dolor. Ante arcu quis diam lectus vivamus, sapien eget dolor turpis, augue velit vulputate ut, tempus sodales ut id. Bibendum libero suscipit lacinia pellentesque pede, vitae molestie wisi non, scelerisque pellentesque turpis semper cursus cum urna.</p>
+
+<p>Dictumst malesuada. Neque nonummy. Ipsum tristique donec viverra at vitae et, amet in. Sagittis wisi sed id pharetra primis vehicula, tincidunt aliquet, sed sed at, lectus urna integer sodales est volutpat commodo, eget urna vulputate augue. Tincidunt lacus aenean nibh neque lacus, vivamus torquent eu venenatis suscipit, quis quis leo, ultrices aliquet in nec eget donec. Massa fusce, at amet dui justo. Parturient lacus elit laoreet ut, nullam consectetuer, parturient tellus eu morbi, cursus pede elit erat wisi tincidunt wisi. Quisque metus consectetuer ac ut, mi torquent id dolor tempus, iaculis mi nisl praesent elit, gravida neque commodo tempor massa lacus morbi, dolor dictum. At nonummy, tincidunt dis amet imperdiet.</p>
+
+<p>In vivamus cras, purus quam lectus vestibulum, integer a orci nam in, maecenas mus nisl ut, turpis in. Diam turpis duis eligendi dictum. Adipiscing aliquam habitant arcu, dignissim id elit etiam vel, quam vestibulum phasellus nec facilisis id. Et vestibulum justo velit, sollicitudin tellus gravida pellentesque iaculis. Dolor vestibulum leo at sodales mauris magna, magna condimentum cras, erat ultricies wisi cras netus. Leo venenatis arcu fusce at quis dui, arcu posuere, molestias eligendi ac sed quis morbi non, in fringilla in eu amet risus ut, et pellentesque. Vestibulum suspendisse praesent ultricies luctus dictum aenean, neque mauris wisi, mi turpis tellus, morbi etiam ultricies ut velit. Aliquam donec faucibus purus.</p>
+
+<p>Ipsum vel, lorem nibh non. Vestibulum tincidunt amet volutpat nec. Amet velit, enim dolore porta dolor. Ante pretium mattis libero, porttitor posuere. Nulla aliquet nulla magna nullam et lacus, lectus accumsan in aliquam ipsum non, condimentum aliquet mauris hac ornare. Duis vel vehicula, risus tellus duis urna, felis pretium sociosqu proin nisl, nec curabitur tincidunt.</p>
+</p>
                 </div>
-                {% endfor %}
             </div>
         </div>
-
 
         <!--Footer-->
         <footer class="page-footer font-small indigo pt-0">
@@ -98,7 +106,7 @@
                     <!--First column-->
                     <div class="col-md-6 text-center py-5 left">
                         <div class="mb-5 flex-center">
-                            <img src= "/img/logo.png" href="{{ site.url }}" width="100px">
+                            <img src= "/img/logo.png" href="#" width="100px">
                         </div>
 
                         <div class="mb-5 flex-center">

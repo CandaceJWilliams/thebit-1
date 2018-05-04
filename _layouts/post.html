@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -35,19 +36,19 @@
             <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="learn.html">Learn</a>
+                        <a class="nav-link" href="/learn.html">Learn</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="explore.html">Explore</a>
+                        <a class="nav-link" href="/explore.html">Explore</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="blog.html"><img class="nav-link" src= /img/logo.png href="#" width="100px"></a>
+                        <a href="{{ site.url }}"><img class="nav-link" src= "/img/logo.png" href="#" width="100px"></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Support</a>
+                        <a class="nav-link" href="/contact.html">Contact</a>
                     </li>
                     <!--<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -68,15 +69,30 @@
                 </div>
                 <div class="col-md-6">
                     <div id="featured_section">
-                        <h2 class="featured_category">{{ post.categories }}</h2>
-                        <h3 class="article_title">{{ post.title }}</h2>
+
+                        {% if page.category == "topic-art" %}
+                            <h2 class="featured_category">ART</h2>
+                        {% elsif page.category == "topic-social" %}
+                            <h2 class="featured_category">ART</h2>
+                        {% elsif page.category == "topic-music" %}
+                            <h2 class="featured_category">ART</h2>
+                        {% elsif page.category == "topic-engineering" %}
+                            <h2 class="featured_category">ART</h2>
+                        {% elsif page.category == "topic-science" %}
+                            <h2 class="featured_category">ART</h2>
+                        {% else %}
+                            <h2 class="featured_category">{{ page.category | upcase}}</h2>
+                        {% endif %}
+
+
+                        <h3 class="article_title">{{ page.title }}</h2>
                     </div>
                 </div>
             </div>
 
             <div class="row white">
                 <div class="col-md-12">
-                    <p class="article_text">{{ post.content }}</p>
+                    <p class="article_text">{{ page.content }}</p>
                 </div>
             </div>
         </div>
@@ -93,7 +109,7 @@
                     <!--First column-->
                     <div class="col-md-6 text-center py-5 left">
                         <div class="mb-5 flex-center">
-                            <img src= img/logo.png href="#" width="100px">
+                            <img src= "/img/logo.png" href="#" width="100px">
                         </div>
 
                         <div class="mb-5 flex-center">
