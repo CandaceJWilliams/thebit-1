@@ -1,8 +1,8 @@
 ---
 
 title:
-layout:
-categories:
+layout: post
+category:
 description:
 
 ---
