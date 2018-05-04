@@ -7,18 +7,20 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>theBit | test</title>
+        <title>theBit - Blog</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom fonts for this template -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
         <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
         <!-- Custom styles for this template -->
-        <link href="/css/blog_style.css" rel="stylesheet">
+        <link href="css/blog_style.css" rel="stylesheet">
+        <link href="css/explore.css" rel="stylesheet">
         <!-- <link href="css/main.css" rel="stylesheet">  -->
 
         <style>
@@ -26,7 +28,7 @@
 
 
     </head>
-    <body class ="orange">
+    <body class ="white">
         <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,13 +43,13 @@
                         <a class="nav-link" href="explore.html">Explore</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="blog.html"><img class="nav-link" src= /img/logo.png href="#" width="100px"></a>
+                        <a href="blog.html"><img class="nav-link" src= img/logo.png href="#" width="100px"></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Support</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <!--<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -60,25 +62,55 @@
                 </ul>
             </div>
         </nav>
-
         <div class="container h-100">
+
             <div class="row">
-                <div class="col-md-6">
-                    <img id="image" src="/img/hand_nobackground.png" alt="Hands" width="500px" height="500px">
+
+                <div class="col-md-12">
+                    <h1 class="topic_title">.random</h1>
                 </div>
-                <div class="col-md-6">
-                    <div id="featured_section">
-                        <h2 class="featured_category"></h2>
-                        <h3 class="article_title"></h2>
-                    </div>
-                </div>
+
             </div>
 
-            <div class="row white">
-                <div class="col-md-12">
-                    <p class="article_text"></p>
+<!--             <div class="content">
+        <div class="container">
+            <p class="text">
+                .
+            </p>
+
+            <ul class="list">
+                <li class="item">world !</li>
+                <li class="item">bit !</li>
+                <li class="item">SheHacks !</li>
+                <li class="item">random !</li>
+            </ul>
+        </div>
+    </div> -->
+
+            {% for post in site.categories.topic-art %}
+            <div class="row white" style="margin-bottom:50px;">
+
+                <div class="col-md-6 text-center">
+
+                    <img src="{{ site.baseurl }}/img/{{ post.img }}" lass="img-fluid" alt="Responsive image" width="75%">
+
+                </div> 
+
+                <div class="col-md-6 article">
+                    <h1 class ="subtitle">Read time: {{ post.time-to-read }} mints<h1>
+
+                    <h1 class ="articleTitle">{{ post.title }}</h1>
+                    <p style="padding-top:5px;">{{ post.description }}</p>
+                    <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
                 </div>
+
             </div>
+            {% endfor %}
+
+        
+
+       
+
         </div>
 
         <!--Footer-->
