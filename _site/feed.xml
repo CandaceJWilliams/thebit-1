@@ -5,19 +5,16 @@
         <title>Blog</title>
         <link>http://localhost:4000</link>
         <description></description>
-<<<<<<< HEAD
-        <lastBuildDate>Fri, 04 May 2018 13:00:58 -0400</lastBuildDate>
-=======
-        <lastBuildDate>Fri, 04 May 2018 12:27:02 -0400</lastBuildDate>
+        <lastBuildDate>Sun, 06 May 2018 16:43:29 -0400</lastBuildDate>
         
         <item>
             <description>
                 
 
             </description>
-            <pubDate>Fri, 04 May 2018 00:00:00 -0400</pubDate>
+            <pubDate>Sat, 05 May 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/something-about-social-impact-topic.html
+                http://localhost:4000/video/another-amazing-video.html
             </guid>
         </item>
         
@@ -26,45 +23,89 @@
                 
 
             </description>
-            <pubDate>Fri, 04 May 2018 00:00:00 -0400</pubDate>
+            <pubDate>Sat, 05 May 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/topic-art/something-about-science-topic.html
+                http://localhost:4000/video/amazing-video.html
             </guid>
         </item>
         
         <item>
             <description>
-                
+                &lt;h1 id=&quot;celebrant-feroci&quot;&gt;Celebrant feroci&lt;/h1&gt;
 
+&lt;h2 id=&quot;promissa-ichnobatesque-longo-sedulitas-novaque-dixit-mater&quot;&gt;Promissa Ichnobatesque longo sedulitas novaque dixit mater&lt;/h2&gt;
+
+&lt;p&gt;Lorem markdownum catenis digitos ciboque superatae concuteret luctatusque
+habitabilis accipis coloribus rostrisque fuit &lt;em&gt;arva&lt;/em&gt; pollutosque, quo...
             </description>
             <pubDate>Fri, 04 May 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/something-about-music-topic.html
+                http://localhost:4000/topic-social-impact/something-about-social-impact-topic.html
             </guid>
         </item>
         
         <item>
             <description>
-                
+                &lt;h1 id=&quot;adfatur-quis-corpore-almo-trabes-limus&quot;&gt;Adfatur quis corpore Almo trabes limus&lt;/h1&gt;
 
+&lt;h2 id=&quot;donec-radiosque-seducta&quot;&gt;Donec radiosque seducta&lt;/h2&gt;
+
+&lt;p&gt;Lorem markdownum cervicis Bacche, timet doloris sua quo ut blanditiis iuvenis
+longum annisque est ingens, habes. Cerealia abit nunc arduus et vastior datis
+addiderat turbasti &lt;a href=&q...
             </description>
             <pubDate>Fri, 04 May 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/something-about-engineering-topic.html
+                http://localhost:4000/topic-science/something-about-science-topic.html
             </guid>
         </item>
         
         <item>
             <description>
-                
+                &lt;h1 id=&quot;haec-nulla-transire&quot;&gt;Haec nulla transire&lt;/h1&gt;
 
+&lt;h2 id=&quot;vincemur-video-optatis&quot;&gt;Vincemur video optatis&lt;/h2&gt;
+
+&lt;p&gt;Lorem markdownum dedit. Ecce meum alimenta dubitare nocte pulveris interdum
+clamor ut Ialysios postquam Oete in cicatrix demittit. Diu noxa ruricolam es
+Talia sparsas ore notavi en omnes non maiore cerva discedere vulnerat
+&lt;s...
             </description>
             <pubDate>Fri, 04 May 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/something-about-art-topic.html
+                http://localhost:4000/topic-music/something-about-music-topic.html
             </guid>
         </item>
->>>>>>> 010f02ea947c6347c287ee6920e26d08a6367e95
+        
+        <item>
+            <description>
+                &lt;h1 id=&quot;illos-album-est-cornibus-libera-haustae-lumen&quot;&gt;Illos album est cornibus libera haustae lumen&lt;/h1&gt;
+
+&lt;h2 id=&quot;mergit-quibus-meique&quot;&gt;Mergit quibus meique&lt;/h2&gt;
+
+&lt;p&gt;Lorem markdownum liquidum thalamumque ut quoque, eadem est virum, tunc ferit.
+Cunctaque et zonae enim felle adversas iustis fixit faciunt &lt;strong&gt;hoc&lt;/strong&gt; certa: ma...
+            </description>
+            <pubDate>Fri, 04 May 2018 00:00:00 -0400</pubDate>
+            <guid>
+                http://localhost:4000/topic-engineering/something-about-engineering-topic.html
+            </guid>
+        </item>
+        
+        <item>
+            <description>
+                &lt;h1 id=&quot;nec-quem-concurrere-poeniceam-fuit&quot;&gt;Nec quem concurrere poeniceam fuit&lt;/h1&gt;
+
+&lt;h2 id=&quot;inania-retinere-ad-indigenae-vellem-passu&quot;&gt;Inania retinere ad indigenae vellem passu&lt;/h2&gt;
+
+&lt;p&gt;Lorem markdownum, annis ulmo ast, ius exire omnes repetitum illi mensis, pedum
+et nidos: ore. Quae et hic &lt;a href=&quot;http://www.in-cani.org/quem-est.aspx&...
+            </description>
+            <pubDate>Fri, 04 May 2018 00:00:00 -0400</pubDate>
+            <guid>
+                http://localhost:4000/topic-art/something-about-art-topic.html
+            </guid>
+        </item>
         
         <item>
             <description>
@@ -114,7 +155,18 @@
             </description>
             <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/topic-post-template.html
+                http://localhost:4000/video-post-template.html
+            </guid>
+        </item>
+        
+        <item>
+            <description>
+                
+
+            </description>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
+            <guid>
+                http://localhost:4000/video-post-template-Copy.html
             </guid>
         </item>
         
@@ -126,6 +178,17 @@
             <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
             <guid>
                 http://localhost:4000/regular-post-template.html
+            </guid>
+        </item>
+        
+        <item>
+            <description>
+                
+
+            </description>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
+            <guid>
+                http://localhost:4000/explore-post-template.html
             </guid>
         </item>
         

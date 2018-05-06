@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        {% include head_content.html %}
+
+        <title>{{ page.title }} | {{ site.title }}</title>
+
+
+    </head>
+    <body class ="white">
+        {% include nav.html %}
+        <div class="container h-100">
+
+            <div class="row">
+
+            <div class="col-md-12">
+                <h1 class="topic_title">.art</h1>
+            </div>
+
+            </div>
+
+            {% for post in site.categories.topic-art %}
+            {% include listed_item.html %}
+            {% endfor %}
+            
+        </div>
+
+        <!--Footer-->
+        {% include footer.html %}
+        <!--/Footer-->
+                      
+                  
+    </body>
+</html>
