@@ -1,9 +1,10 @@
 ---
 
-layout: data_post
+layout: post
 title: Something Exciting About Data Science
-categories: data
+category: data
 description: Dolor vestibulum leo at sodales mauris magna, magna condimentum cras, erat ultricies wisi cras netus. Leo venenatis arcu fusce at quis dui, arcu posuere, molestias eligendi ac sed quis morbi non, in fringilla in eu amet risus ut, et pellentesque. Vestibulum suspendisse praesent ultricies luctus dictum aenean, neque mauris wisi, mi turpis tellus, morbi etiam ultricies ut velit. Aliquam donec faucibus purus.
+img:
 
 ---
 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        {% include head_content.html %}
+        <link href="css/explore.css" rel="stylesheet">
+
+        <title>{{ page.title }} | {{ site.title }}</title>
+
+    </head>
+    <body class ="white">
+        {% include nav.html %}
+        <div class="container h-100">
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    <h1 class="topic_title">.enginnering</h1>
+                </div>
+
+            </div>
+
+<!--             <div class="content">
+        <div class="container">
+            <p class="text">
+                .
+            </p>
+
+            <ul class="list">
+                <li class="item">world !</li>
+                <li class="item">bit !</li>
+                <li class="item">SheHacks !</li>
+                <li class="item">random !</li>
+            </ul>
+        </div>
+    </div> -->
+
+            {% for post in site.categories.topic-engineering %}
+            {% include listed_item.html %}
+            {% endfor %}
+
+
+        </div>
+
+        <!--Footer-->
+        {% include footer.html %}
+        <!--/Footer-->
+                      
+                  
+    </body>
+</html>

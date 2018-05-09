@@ -1,9 +1,10 @@
 ---
 
-layout: featured_post
+layout: post
 title: So You Want to Plan an All-Female Hackathon? Article 2&#58 Time Management
-categories: featured
+category: featured
 description: For most students, including myself, it is difficult to find the time to organize a hackathon. Internships, jobs, and school eat up so much of our time and energy that it is easy to get overwhelmed when attempting to organize a big event. Thus, time management is an essential skill an organizer must learn. Not only for the better of their event, but for their own well-being.
+img: test.jpeg
 
 ---
 

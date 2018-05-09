@@ -1,8 +1,0 @@
----
-
-title:
-layout:
-categories:
-description:
-
----

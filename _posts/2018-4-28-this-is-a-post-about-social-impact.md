@@ -1,9 +1,10 @@
 ---
 
-layout: social_post
+layout: post
 title: Wow, Social Impact Blah Blah
-categories: social
+category: social
 description: Neque nonummy. Ipsum tristique donec viverra at vitae et, amet in. Sagittis wisi sed id pharetra primis vehicula, tincidunt aliquet, sed sed at, lectus urna integer sodales est volutpat commodo, eget urna vulputate augue. Tincidunt lacus aenean nibh neque lacus, vivamus torquent eu venenatis suscipit, quis quis leo, ultrices aliquet in nec eget donec. Massa fusce, at amet dui justo. Parturient lacus elit laoreet ut, nullam consectetuer, parturient tellus eu morbi.
+img:
 
 ---
 
