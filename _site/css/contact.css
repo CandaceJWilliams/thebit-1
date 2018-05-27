@@ -38,3 +38,13 @@ h2.titleHeader {
 a.titleHeader{
   color:#ed559c;
 }
+
+.profile {
+  margin-right: 50px;
+}
+
+.bio {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+

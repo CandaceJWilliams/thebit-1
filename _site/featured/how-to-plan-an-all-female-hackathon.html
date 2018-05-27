@@ -46,7 +46,10 @@
                 <a class="nav-link" href="http://localhost:4000">Home</a>
             </li>
             <li class="nav-item active middle">
-               <a href="http://localhost:4000"><img class="nav-link" src= "/img/logo.png" href="#" width="100px"></a>
+               <a href="http://localhost:4000"><img class="nav-link" src= "/main_images/logo.png" href="#" width="100px"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://shehacks.io/">Events</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" target="_blank" href="https://www.store.shehacks.io/">Shop</a>
@@ -54,6 +57,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="/contact.html">Contact</a>
             </li>
+            
             <!--<li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown10">
@@ -73,7 +77,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div id="img_container">
-                        <img id="image" src="/img/test.jpeg" alt="Hands" width="500px" height="500px">
+                        <img id="image" src="/post_images/test.jpeg" alt="Hands" width="500px" height="500px">
                     </div>
                 </div>
                 <div class="col-md-6 intro">
@@ -141,9 +145,9 @@ There are a lot more concrete tips and tricks I have for how to plan a hackathon
         <div class="row">
 
             <!--First column-->
-            <div class="col-md-6 text-center py-5 left">
-                <div class="mb-5 flex-center">
-                    <img src= "/img/logo.png" href="#" width="100px">
+            <div class="col-md-6 text-center left">
+                <div class="mb-4 flex-center">
+                    <img src= "/main_images/logo.png" href="#" width="100px">
                 </div>
 
                 <div class="mb-5 flex-center">
@@ -231,17 +235,28 @@ There are a lot more concrete tips and tricks I have for how to plan a hackathon
             <!--/First column-->
 
             <!--Second column-->
-            <div class="col-md-6 text-center py-5">
-                <div class="mb-5 flex-center">
+            <div class="col-md-6 text-center">
+                <div class="mb-4 flex-center mt-4">
                     <h1 class ="newsletter_header">NEWSLETTER</h1>
-                    <p class ="newsletter_text">We like to share cool stuff with you <br>Let us know your 
-                        <form action="/action_page.php">
-                            <input type="text" name="fname" value="name..."><br><!-- <input type="submit" value="Submit">-->
+                    <!-- Begin MailChimp Signup Form -->
+                    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
+                        #mc_embed_signup{background:#faaf6b; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                        <form action="https://blog.us18.list-manage.com/subscribe/post?u=09201fd289958dcbf8b8cbc0d&amp;id=6ea51e7788" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <label for="mce-EMAIL">Cool tips, tricks &amp; inspiring stories, straight to your inbox every day. Sign up to join our community, learn about upcoming events, and more. </label>
+                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_09201fd289958dcbf8b8cbc0d_6ea51e7788" tabindex="-1" value=""></div>
+                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                            </div>
                         </form>
-
-                        <br>and <input type="text" name="fname" value="email..."><br>
-                    </p>
-                    <button class="btn btn-primary" type="button">SIGN UP</button>
+                    </div>
+                    <!--End mc_embed_signup-->
                 </div>
             </div>
             <!--/Second column-->
@@ -258,6 +273,7 @@ There are a lot more concrete tips and tricks I have for how to plan a hackathon
     /Copyright-->
 
 </footer>
+
         <!--/Footer-->
                       
                   
