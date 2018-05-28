@@ -32,7 +32,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a href="http://localhost:4000" class="name navbar-brand"><img src= "/img/logo.png" href="#" width="100px"></a>
+    <a href="http://localhost:4000" class="name navbar-brand"><img src= "/main_images/logo.png" href="#" width="100px"></a>
 
     <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
         <ul class="navbar-nav">
@@ -77,7 +77,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div id="img_container">
-                        <img id="image" src="/post_images/" alt="Hands" width="500px" height="500px">
+                        <img id="image" src="/post_images/bg-mobile-fallback.jpg" alt="Hands" width="500px" height="500px">
                     </div>
                 </div>
                 <div class="col-md-6 intro">
@@ -259,7 +259,7 @@ Minturnaeque aper</em>. Terga rapuere fonti vix.</p>
 
             <!--Second column-->
             <div class="col-md-6 text-center">
-                <div class="mb-4 flex-center mt-4">
+                <div class="mb-5 flex-center mt-4 newsletter">
                     <h1 class ="newsletter_header">NEWSLETTER</h1>
                     <!-- Begin MailChimp Signup Form -->
                     <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
@@ -271,11 +271,15 @@ Minturnaeque aper</em>. Terga rapuere fonti vix.</p>
                     <div id="mc_embed_signup">
                         <form action="https://blog.us18.list-manage.com/subscribe/post?u=09201fd289958dcbf8b8cbc0d&amp;id=6ea51e7788" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                             <div id="mc_embed_signup_scroll">
-                                <label for="mce-EMAIL">Cool tips, tricks &amp; inspiring stories, straight to your inbox every day. Sign up to join our community, learn about upcoming events, and more. </label>
-                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                                <p class="newsletter_text">We would like to share cool stuff with you. Let us know your <input type="text" value="email" name=fname" class="email"  placeholder="email" required style="border: none; border-bottom-style: solid;
+                                border-bottom-color: white;"></p>
+                                
+                                <!-- <input type="text" name="fname" value="email..."> -->
                                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_09201fd289958dcbf8b8cbc0d_6ea51e7788" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                                <!-- <div class="clear"><input type="submit" value="Subscribe" name="subscribe" iclass="button"></div> -->
+                                <button type="submit" value="Subscribe" name="subscribe" class="btn btn-primary" type="button">SIGN UP</button>
+
                             </div>
                         </form>
                     </div>
