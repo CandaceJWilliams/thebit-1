@@ -46,30 +46,40 @@
     <body class ="white">
         {% include nav.html %}
 
-        <div class="container" style="margin: 50px;">
+        <div class="container" style="margin-top:50px;margin-bottom:50px">
             <div class="row">
-                <div class="col-md-12">
-                    <h1>Explore the Code with Us </h1>
+                <div class="col">
+                    <h1 >Explore the Code with Us </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
 
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
 
-                    <br>
                     <br>
 
                     <h1>Contact Us</h1>
 
                     <br>
-                </div>
 
-                <div class = "col-md-2 profile">
-                    <img class ="profilePic" src="main_images/fiona_polaroid.png" width="200px">
                 </div>
-                <div class = "col-md-8 bio">
+            </div>
+
+            <div class="row">
+                <div class = "col-sm-3 profile">
+                        <button>
+                            <img class ="profilePic" src="main_images/fiona_polaroid.png" width="200px">
+                        </button>
+                </div>
+                <div class = "col-sm-8 bio">
                     <h2 class ="titleHeader">Fiona Whittington, CEO &#38; Founder</h2>
                     <h2 class ="titleHeader">fionaw@bu.edu</h2>
                     <p class = "subHeader">Fiona is a Junior at Boston University studying advertising and computer science. She is currently the President and Founder of Girls Who Code BU, Executive Briefing Center Intern at Red Hat, and Researcher at Boston University. She is the founder of SheHacks Boston and The Bit. <strong>She is passionate about science, technology, communications, and travel. Her dream job would be to combine her interests in science and technology with her passion for design and innovation with the goal of bettering communities around the world.</strong> In her free time, Fiona enjoys running on along the Charles River, studying the stock market, and sipping tea. </p>
                 </div>
+            </div>
+
 
 <!--                 <div class = "col-md-2">
                     <img src="img/candace_torn.png" width="200px" style="padding-right:20px">
@@ -98,13 +108,32 @@
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
                 </div>
  -->
-            </div>
         </div>
 
         <!--Footer-->
         {% include footer.html %}
         <!--/Footer-->
-                      
-                  
     </body>
+    <script>
+        function toggle_help() {
+            if ($(window).width() >= 600) {
+                $('.profile button').prop('disabled', true);
+                $(".bio p").show();
+            }
+            else {
+                $('.bio p').hide();
+                $('.profile button').prop('disabled', false);
+                $(".profile button").on('click', function(){
+                    $('.bio p').toggle();
+                });
+            }
+        }
+        $(document).ready(function() {
+            toggle_help();
+        });
+        $(window).resize(function() {
+            toggle_help();
+        });
+
+    </script>
 </html>
