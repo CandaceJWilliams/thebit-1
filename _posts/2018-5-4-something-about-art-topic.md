@@ -6,7 +6,6 @@ category: topic-art
 img: bg-mobile-fallback.jpg
 time-to-read: 3
 description: Lorem ipsum dolor sit amet, sed fusce eu justo vitae dui sed, consectetuer penatibus massa ultricies vestibulum nunc nulla. Est sem commodo lacinia. Vel sed dis mi nullam, interdum nullam sit. Metus ullamcorper laoreet faucibus eros, vel netus accumsan, neque purus.
-img:
 
 ---
 

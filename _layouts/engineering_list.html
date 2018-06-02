@@ -3,7 +3,7 @@
     <head>
 
         {% include head_content.html %}
-        <link href="css/explore.css" rel="stylesheet">
+        <link href="/css/explore.css" rel="stylesheet">
 
         <title>{{ page.title }} | {{ site.title }}</title>
 
@@ -35,7 +35,7 @@
         </div>
     </div> -->
 
-            {% for post in site.categories.topic-engineering %}
+            {% for post in site.categories.topic-engineering limit:7 %}
             {% include listed_item.html %}
             {% endfor %}
 
