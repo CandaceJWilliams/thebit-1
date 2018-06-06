@@ -220,6 +220,10 @@ button.btn.btn-secondary:hover {
   border-color: black;
 }*/
 
+.social::hover {
+  background: white;
+}
+
 
 /*Additional Breakpoint*/
 @media (max-width: 575px) {
