@@ -6,7 +6,7 @@ category: topic-music
 img: default.png
 time-to-read: 3
 description: Lorem ipsum dolor sit amet, phasellus quis feugiat, duis vel volutpat suspendisse elit dictum morbi, ea vulputate ultricies, amet tincidunt tortor sem mauris suscipit nisl. A praesent elit suspendisse, mi quam, nec in amet, rhoncus orci dolor nulla mattis nunc. Malesuada nonummy turpis pede vestibulum faucibus enim. Pede sem tellus, luctus erat, elit hendrerit ut pulvinar taciti pede, amet mattis enim wisi, ut metus ut voluptate pulvinar quis.
-img:
+
 
 ---
 

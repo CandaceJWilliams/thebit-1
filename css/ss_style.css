@@ -1,0 +1,121 @@
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel {
+	width: 100%;
+	height: 50%;
+}
+
+.slideshow {
+
+	padding-top: 15px;
+	padding-bottom:15px;
+
+	padding-left: 30px;
+	padding-right: 30px;
+
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+	border-style: solid;
+	border-color: black;
+}
+
+.text {
+	width: 65%;
+}
+
+.img-bio {
+	margin-top: 10px;
+	width: 220px;
+}
+
+.headshot {
+	border-radius: 50%;
+	border-style: solid;
+}
+
+/*.speakers {
+	margin-top: 10px;
+}*/
+
+#speaker-heading {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.speakers {
+	margin-bottom: 30px;
+}
+
+.top {
+	margin-top: 20px;
+}
+
+.involvement {
+	margin-bottom: 50px;
+}
+
+/*div {
+	border-style: solid;
+	border-color: black;
+}*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.9px) {
+
+	/*div {
+		border-style: solid;
+		border-color: blue;
+	}*/
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+
+	/*div {
+		border-style: solid;
+		border-color: green;
+	}*/
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) { 
+
+	/*div {
+		border-style: solid;
+		border-color: yellow;
+	}*/
+
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+
+	/*div {
+		border-style: solid;
+		border-color: orange;
+	}*/
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+
+	/*div {
+		border-style: solid;
+		border-color: red;
+	}*/
+
+}

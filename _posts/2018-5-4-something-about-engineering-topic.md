@@ -6,7 +6,7 @@ category: topic-engineering
 img: default.png
 time-to-read: 3
 description: Lorem ipsum dolor sit amet, faucibus nec, enim malesuada, sed convallis. Sollicitudin integer etiam, turpis mauris torquent posuere. Vestibulum porttitor tincidunt sodales, quisque vestibulum, ac phasellus libero. Elit integer tristique.
-img:
+
 
 ---
 

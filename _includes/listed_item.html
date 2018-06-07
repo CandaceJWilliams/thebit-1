@@ -1,17 +1,18 @@
-<div class="row white" style="margin-bottom:50px;">
+<div class="item row white" style="margin-bottom:50px;">
 
-    <div class="col-md-6 text-center">
+    <div class="col-md-12 col-lg-6 text-center listed_image">
 
-        <img src="{{ site.baseurl }}/img/{{ post.img }}" lass="img-fluid" alt="Responsive image" width="75%">
+        <!-- <img src="/img/{{ post.img }}" lass="img-fluid" alt="Responsive image" width="75%"> -->
+        <img id="image" src="/post_images/{{ post.img }}" alt="Hands" width="500px" height="500px">
 
     </div> 
 
-    <div class="col-md-6 article">
+    <div class="col-md-12 col-lg-6 article">
         <h1 class ="subtitle">Read time: {{ post.time-to-read }} mints<h1>
 
         <h1 class ="articleTitle">{{ post.title }}</h1>
-        <p style="padding-top:5px;">{{ post.description }}</p>
-        <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
+        <p style="padding-top:5px;" class="articleDescription">{{ post.description }}</p>
+        <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button">READ MORE</button></a>
     </div>
 
 </div>

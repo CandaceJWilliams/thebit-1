@@ -89,12 +89,24 @@ p {
   font-size:18px;
 }
 
-input[type="text"]{
+.newsletter {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+input[type="text"] {
   background-color: #f8ae6b;
-  border: none;
+  border-style: none;
+  border-color: none;
   color:white;
   font-weight:500;
+  outline: none;
 }
+
+/*input:focus {
+
+  outline: none;
+}*/
 
 /*Footer Styles*/
 
@@ -208,6 +220,10 @@ button.btn.btn-secondary:hover {
   border-color: black;
 }*/
 
+.social::hover {
+  background: white;
+}
+
 
 /*Additional Breakpoint*/
 @media (max-width: 575px) {
@@ -222,6 +238,7 @@ button.btn.btn-secondary:hover {
     margin-top:40px;
     margin-bottom:40px;
   }
+
   #image {
     width: 100%;
     height: auto;

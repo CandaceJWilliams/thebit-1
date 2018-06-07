@@ -22,7 +22,7 @@
 
             </div>
 
-            {% for post in site.categories.topic-art %}
+            {% for post in site.categories.topic-art limit:7 %}
             {% include listed_item.html %}
             {% endfor %}
             
