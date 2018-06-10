@@ -34,6 +34,7 @@
         <!-- Custom styles for this template -->
         <link href="css/events.css" rel="stylesheet">
         <link href="/css/blog_style.css" rel="stylesheet">
+        <script src="js/events.js"></script>
 
         <!-- <link href="css/main.css" rel="stylesheet">  -->
     </head>
@@ -48,22 +49,21 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-8">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 col-md-4">
-                    <button id="shehacks">
-                    </button>
-                </div>
-                <div class="col-6">
-                    <button id="shespeaks">
-                    </button>
-                </div>
+                <div class="col-sm-4 orange hoverme" id="shehacks" onmouseover="changeColors(this);">
+                    <a class ="topicLink" href="http://shehacks.io"><h1 class = "topic"> &lt/SheHacks&gt</h1>
+                    <p></p></a>
+               </div>
+               <div class="col-sm-1"></div>
+                <div class="col-sm-4 pink hoverme" id="shespeaks" onmouseover="changeColors(this);">
+                    <a class ="topicLink" href=""><h1 class = "topic"> &lt/SheSpeaks&gt</h1></a>
+               </div>
             </div>
         </div>
-
         <!--Footer-->
         {% include footer.html %}
         <!--Footer-->
