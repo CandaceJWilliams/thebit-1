@@ -224,6 +224,23 @@ button.btn.btn-secondary:hover {
   background: white;
 }
 
+.social-icon  {
+  color:black;
+  padding-right: 7px;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  color: white;
+
+}
+
+/*div {
+  border-style: solid;
+  border-color: black;
+}*/
+
+
 
 /*Additional Breakpoint*/
 @media (max-width: 575px) {
@@ -299,7 +316,7 @@ button.btn.btn-secondary:hover {
   }
 
   #main_image {
-    width: 100%;
+    width: 50%;
     height: auto;
   }
 
@@ -632,8 +649,8 @@ button.btn.btn-secondary:hover {
 
   #main_image {
     position: relative;
-    top: 0%;
-    width: 100%;
+    top: 9%;
+    width: 80%;
     height: auto;
   }
 
