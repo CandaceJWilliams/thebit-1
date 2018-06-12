@@ -31,6 +31,7 @@
         <!-- Custom styles for this template -->
         <link href="css/events.css" rel="stylesheet">
         <link href="/css/blog_style.css" rel="stylesheet">
+        <script src="js/events.js"></script>
 
         <!-- <link href="css/main.css" rel="stylesheet">  -->
     </head>
@@ -40,7 +41,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a href="http://localhost:4000" class="name navbar-brand"><img src= "/main_images/logo.png" href="#" width="100px"></a>
+    <!-- <a href="http://localhost:4000" class="name navbar-brand"><img src= "/main_images/logo.png" href="#" width="100px"></a> -->
 
     <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
         <ul class="navbar-nav">
@@ -60,7 +61,7 @@
                 <a class="nav-link" href="/events.html">Events</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" target="_blank" href="https://www.store.shehacks.io/">Shop</a>
+                <a class="nav-link" target="_blank" href="https://www.store.shehacks.io/" target="_blank">Shop</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/contact.html">Contact</a>
@@ -88,22 +89,21 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-8">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 col-md-4">
-                    <button id="shehacks">
-                    </button>
-                </div>
-                <div class="col-6">
-                    <button id="shespeaks">
-                    </button>
-                </div>
+                <div class="col-sm-4 blue hoverme" id="shehacks" onmouseover="changeColors(this);" style="cursor: pointer;">
+                    <a class ="topicLink" target="_blank" href="http://shehacks.io"><h1 class = "topic"> &lt/SheHacks&gt</h1>
+                    <p></p></a>
+               </div>
+               <div class="col-sm-1"></div>
+                <div class="col-sm-4 pink hoverme" id="shespeaks" onmouseover="changeColors(this);" style="cursor: pointer;">
+                    <a class ="topicLink" target="_blank" href="shespeaks.html"><h1 class = "topic"> &lt/SheSpeaks&gt</h1></a>
+               </div>
             </div>
         </div>
-
         <!--Footer-->
         <footer class="page-footer font-small indigo pt-0">
 
@@ -120,8 +120,9 @@
                 </div>
 
                 <div class="mb-5 flex-center">
+
                     <!--Facebook-->
-                    <a class="fb-ic social" href="" target="_blank">
+                    <!-- <a class="fb-ic social" href="https://www.facebook.com/thebit.blog/" target="_blank">
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;" xml:space="preserve">
                         <g>
                             <g id="facebook">
@@ -139,14 +140,19 @@
                                 </g>
                             </g>
                         </g>
-                    </svg>
+                        </a>
+                    </svg> -->
 
+
+                    <a href="https://www.facebook.com/thebit.blog/" target="_blank">
+                        <i class="fa fa-facebook social-icon fa-2x" aria-hidden="true"></i>
                     </a>
+
                     <!--Twitter-->
-                    <a class="tw-ic social" href="" target="_blank">
-                        <?xml version="1.0" encoding="iso-8859-1"?>
+                    <!-- <a class="tw-ic social" href="https://twitter.com/thebit_blog" target="_blank">
+                        <?xml version="1.0" encoding="iso-8859-1"?> -->
                         <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <!-- <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="30px" height="30px" viewBox="0 0 612.001 612.002" style="enable-background:new 0 0 612.001 612.002;"
                              xml:space="preserve">
@@ -174,8 +180,14 @@
                                     C161.368,480.768,116.584,498.779,68.863,503.676z"/>
                             </g>
                         </svg>
+                    </a> -->
+
+                    <a href="https://twitter.com/thebit_blog" target="_blank">
+                        <i class="fa fa-twitter social-icon fa-2x" aria-hidden="true"></i>
                     </a>
-                    <a class="ins-ic social" href="" target="_blank">
+
+
+                    <!-- <a class="ins-ic social" href="https://www.instagram.com/thebit.blog/" target="_blank">
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
                         <g>
                             <g id="Instagram">
@@ -197,7 +209,13 @@
                                     c0-1.215,0.985-2.201,2.202-2.201h3.264c1.217,0,2.202,0.986,2.202,2.201V10.133z"/>
                             </g>
                         </svg>
+                    </a> -->
+
+                    <a href="https://www.instagram.com/thebit.blog/" target="_blank">
+                        <i class="fa fa-instagram social-icon fa-2x" aria-hidden="true"></i>
                     </a>
+
+
 
                 </div>
             </div>
