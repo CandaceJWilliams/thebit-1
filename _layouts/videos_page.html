@@ -24,18 +24,13 @@
             </div>
 
             {% for post in site.categories.video limit:7 %}
-              {% assign loopindex = forloop.index | modulo: 2 %}
-              {% if loopindex == 1 %}
-                <div class="row mx-auto">
-                    <div class="col-md-5 white embed-responsive embed-responsive embed-responsive-21by9 mx-auto" >
-                        {{ post.link }}
-                    </div>
-              {% else %}
-                    <div class="col-md-5 white embed-responsive embed-responsive embed-responsive-21by9 mx-auto" >
+
+                <div class="row video mx-auto">
+                    <div class="col-md-12 embed-responsive embed-responsive embed-responsive-21by9 mx-auto" >
                         {{ post.link }}
                     </div>
                 </div>
-              {% endif %}
+              
             {% endfor %}
             
 

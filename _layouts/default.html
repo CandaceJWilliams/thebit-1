@@ -13,7 +13,7 @@
         <div class="container h-100">
             <div class="row">
                 <div class="col-md-7">
-                    <img class="my-auto" id="main_image" src="/main_images/hands.png" alt="Hands" width="600px" height="600px">
+                    <img class="my-auto" id="main_image" src="/post_images/library.jpg" alt="Hands" width="600px" height="600px">
                 </div>
                 
                 {% for post in site.categories.featured limit:1 %}
@@ -31,11 +31,16 @@
                 {% endfor %}
             </div>
 
+            <br>
+            <br>
+            <br>
+
             <div class="row w-100 h-100">
 
                 <div class="col-md-4 h-100" >
                     {% for post in site.categories.art limit:1 %}
                         <h2 class="desktop_category category">ART</h2>
+                         <img class="my-auto secondary_image" id="image" src="/post_images/laptop.jpg" alt="Hands" >
                         <h3 class="desktop_title title">{{ post.title }}</h3>
                     {% endfor %}
 
@@ -44,6 +49,7 @@
                 <div class="col-md-4 h-100">
                     {% for post in site.categories.data limit:1 %}
                         <h2 class="desktop_category category">DATA SCIENCE</h2>
+                        <img class="my-auto secondary_image" id="image" src="/post_images/library.jpg" alt="Hands" >
                         <h3 class="desktop_title title">{{ post.title }}</h3>
                         
                     {% endfor %}  
@@ -51,6 +57,7 @@
                 <div class="col-md-4 h-100">
                     {% for post in site.categories.social limit:1 %}
                         <h2 class="desktop_category category">SOCIAL IMPACT</h2>
+                        <img class="my-auto secondary_image" id="image" src="/post_images/grace.jpg" alt="Hands" >
                         <h3 class="desktop_title title">{{ post.title }}</h3>
                         
                     {% endfor %}
@@ -66,7 +73,6 @@
                     {% for post in site.categories.art limit:1 %}
                         <h2 class="mobile_category category">ART</h2>
                         <h3 class="mobile_title title">{{ post.title }}</h3>
-                        <br>
                         <p class="writing">{{ post.description }}</p>
                     
                         <div class="mobile_button">
@@ -81,7 +87,6 @@
                     {% for post in site.categories.data limit:1 %}
                         <h2 class="mobile_category category">DATA SCIENCE</h2>
                         <h3 class="mobile_title title">{{ post.title }}</h3>
-                        <br>
                         <p class="writing">{{ post.description }}</p>
                     
                         <div class="mobile_button">
@@ -94,7 +99,6 @@
                     {% for post in site.categories.social limit:1 %}
                         <h2 class="mobile_category category">SOCIAL IMPACT</h2>
                         <h3 class="mobile_title title">{{ post.title }}</h3>
-                        <br>
                         <p class="writing">{{ post.description }}</p>
                     
                         <div class="mobile_button">

@@ -1,9 +1,9 @@
 ---
 
 layout: post
-title: This Is a Post About Art
+title: A Non-Coders Guide to Working at Red Hat, Open Source, and Emerging Technologies
 category: art
-description: Ipsum vel, lorem nibh non. Vestibulum tincidunt amet volutpat nec. Amet velit, enim dolore porta dolor. Ante pretium mattis libero, porttitor posuere. Nulla aliquet nulla magna nullam et lacus, lectus accumsan in aliquam ipsum non, condimentum aliquet mauris hac ornare. Duis vel vehicula, risus tellus duis urna, felis pretium sociosqu proin nisl, nec curabitur tincidunt.
+description: Throughout the duration of my internship, I realized that a lot of non-coders don’t know what Red Hat does and the important role they play in emerging technologies. So I’ve put together a guide, for those who want to learn more about Red Hat without getting confused, bored, or overwhelmed.
 img:
 
 ---

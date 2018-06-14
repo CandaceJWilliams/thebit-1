@@ -31,8 +31,7 @@ h2.titleHeader {
 }
 
 .profilePic {
-  border:solid 2px #ed559c;
-  padding:10px;
+  padding:15px 0px 15px 0px;
 }
 
 a.titleHeader{
@@ -46,4 +45,14 @@ a.titleHeader{
 .bio {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
