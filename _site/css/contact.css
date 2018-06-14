@@ -21,7 +21,17 @@ p.subHeader {
 }
 
 h2.titleHeader {
-  font-size:15px;
+  font-size:25px;
+  line-height:27px;
+  font-weight:700;
+  letter-spacing: 1px;
+  color:#ed559c;
+  padding-left:10px;
+  padding-top:10px;
+}
+
+h3.titleHeader {
+  font-size:20px;
   line-height:11px;
   font-weight:700;
   letter-spacing: 1px;

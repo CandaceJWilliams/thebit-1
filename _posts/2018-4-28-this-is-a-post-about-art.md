@@ -4,7 +4,7 @@ layout: post
 title: A Non-Coders Guide to Working at Red Hat, Open Source, and Emerging Technologies
 category: art
 description: Throughout the duration of my internship, I realized that a lot of non-coders don’t know what Red Hat does and the important role they play in emerging technologies. So I’ve put together a guide, for those who want to learn more about Red Hat without getting confused, bored, or overwhelmed.
-img:
+img: laptop.jpg
 
 ---
 
