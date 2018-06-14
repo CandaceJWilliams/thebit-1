@@ -1,10 +1,38 @@
 
+/*Header Styling*/
+
+h1.pageHeader {
+    font-size:40px;
+    margin-top:20px;
+}
+
+p.subHeader {
+    font-size:18px;
+}
+
+h1.subtitle {
+    font-size:10px;
+}
+
+h2.subHeader {
+    font-size: 25px;
+    font-style:italic;
+}
+
+h3.article_title {
+  font-style: italic;
+}
+
 .topicLink:hover {
   border-bottom-style: solid;
   border-bottom-color: #f8ae6b;
   border-bottom-width: 5px;
   border-radius: 3px;
   text-decoration: none;
+}
+
+.secondary_image {
+  padding: 10px 0px  20px 0px;
 }
 
 .orange {
@@ -46,7 +74,7 @@ h1, h2, h3, p {
 }
 
 p {
-  font-size:14px;
+  font-size:21px;
 }
 
 .nav-link {
@@ -76,9 +104,10 @@ p {
 
 .writing {
 	font-weight: 300;
-    line-height: 19px;
-    color: #808080;
+  color: #808080;
+  font-size:18px;
 }
+
 
 /*Newsletter Categories*/
 .newsletter_header{
@@ -134,12 +163,12 @@ footer.page-footer.font-small.indigo.pt-0{
 	font-weight: bold;
 }
 
-li, p,ul . {
-  font-size: 14px;
+li, p, ul . {
+  font-size: 21px;
 }
 
 li {
-  font-size: 14px;
+  font-size: 21px;
 }
 
 #keypoint {
@@ -154,10 +183,9 @@ li {
 }
 
 .featured_writing {
-	font-size: 14px;
+	font-size: 21px;
 	font-weight: 300;
-    line-height: 23px;
-    color: #808080;
+  color: #808080;
 }
 
 
@@ -166,13 +194,18 @@ li {
 	display: block;
   margin-left: auto;
   margin-right: auto;
+  border-style: solid;
+  border-color: #faaf6b;
+  padding: 20px;
+
 }
 
 #img_container {
   border-style: solid;
   border-color: white;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
+  margin: 40px;
 
 }
 
@@ -198,7 +231,7 @@ button.btn.btn-primary:hover {
 }
 
 button.btn.btn-secondary {
-  padding: 5px 8px 5px 8px !important;
+  padding: 10px 20px 10px 20px !important;
   background-color: #f8ae6b;
   font-family:'Barlow', sans-serif;
   font-weight: 700;
@@ -308,6 +341,7 @@ button.btn.btn-secondary:hover {
   .article_title {
     font-size: 25px;
     font-weight: bold;
+    font-style: italic;
   }
 
   .row.white {
@@ -650,7 +684,6 @@ button.btn.btn-secondary:hover {
   #main_image {
     position: relative;
     top: 9%;
-    width: 80%;
     height: auto;
   }
 

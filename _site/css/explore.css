@@ -73,6 +73,10 @@ h1.subtitle {
     font-size:10px;
 }
 
+h2.subHeader {
+    font-size: 25px;
+    font-style:italic;
+}
 .topicLink {
     font-family: 'Barlow', sans-serif;
     color: white;
