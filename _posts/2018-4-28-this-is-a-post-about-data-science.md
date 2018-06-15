@@ -1,17 +1,34 @@
 ---
 
 layout: post
-title: Something Exciting About Data Science
+title: From Communications to Code with Christy Kusuma, Full Stack Web Developer at YouVisit
 category: data
-description: Dolor vestibulum leo at sodales mauris magna, magna condimentum cras, erat ultricies wisi cras netus. Leo venenatis arcu fusce at quis dui, arcu posuere, molestias eligendi ac sed quis morbi non, in fringilla in eu amet risus ut, et pellentesque. Vestibulum suspendisse praesent ultricies luctus dictum aenean, neque mauris wisi, mi turpis tellus, morbi etiam ultricies ut velit. Aliquam donec faucibus purus.
-img:
+description: Christy Kusuma is living the dream for aspiring developers from non-traditional backgrounds. As a recent graduate of Boston University's College of Communications, Christy has proved that with determination, hard work, and perseverance, anyone can become a developer.
+img: library.jpg
 
 ---
 
-Lorem ipsum dolor sit amet, nulla enim, dolor porttitor pellentesque, facilisis est ullamcorper phasellus sunt nostra molestie. Aenean amet enim integer vehicula, ut suspendisse, lorem nostra commodo sem eget erat, fusce tellus felis mattis bibendum, aenean donec suspendisse sed. Tortor aliquam quam amet pellentesque aliquet. Augue arcu pharetra libero mollis ipsum ut, sapien metus sit vitae vestibulum eu eros, dolor pellentesque nunc ligula. Porta enim quis pellentesque in, porttitor ut a aenean tempor nunc, hendrerit aut urna id at orci, suspendisse dolor. Ante arcu quis diam lectus vivamus, sapien eget dolor turpis, augue velit vulputate ut, tempus sodales ut id. Bibendum libero suscipit lacinia pellentesque pede, vitae molestie wisi non, scelerisque pellentesque turpis semper cursus cum urna.
+Christy Kusuma is living the dream for aspiring developers from non-traditional backgrounds. As a recent graduate of Boston University's College of Communications, Christy has proved that with determination, hard work, and perseverance, anyone can become a developer.
 
-Dictumst malesuada. Neque nonummy. Ipsum tristique donec viverra at vitae et, amet in. Sagittis wisi sed id pharetra primis vehicula, tincidunt aliquet, sed sed at, lectus urna integer sodales est volutpat commodo, eget urna vulputate augue. Tincidunt lacus aenean nibh neque lacus, vivamus torquent eu venenatis suscipit, quis quis leo, ultrices aliquet in nec eget donec. Massa fusce, at amet dui justo. Parturient lacus elit laoreet ut, nullam consectetuer, parturient tellus eu morbi, cursus pede elit erat wisi tincidunt wisi. Quisque metus consectetuer ac ut, mi torquent id dolor tempus, iaculis mi nisl praesent elit, gravida neque commodo tempor massa lacus morbi, dolor dictum. At nonummy, tincidunt dis amet imperdiet.
+What motivated her to switch from writing articles to writing code? Christy's entrepreneurial spirit.
+"I realized I had all these ideas, but I couldn't make any of them," she said. "So I made a career pivot and joined a Boot Camp because I couldn't wait for anybody else to help me do this. After college, I was coding 24/7. That would be the first thing I woke up to and the last thing I fell asleep to."
 
-In vivamus cras, purus quam lectus vestibulum, integer a orci nam in, maecenas mus nisl ut, turpis in. Diam turpis duis eligendi dictum. Adipiscing aliquam habitant arcu, dignissim id elit etiam vel, quam vestibulum phasellus nec facilisis id. Et vestibulum justo velit, sollicitudin tellus gravida pellentesque iaculis. Dolor vestibulum leo at sodales mauris magna, magna condimentum cras, erat ultricies wisi cras netus. Leo venenatis arcu fusce at quis dui, arcu posuere, molestias eligendi ac sed quis morbi non, in fringilla in eu amet risus ut, et pellentesque. Vestibulum suspendisse praesent ultricies luctus dictum aenean, neque mauris wisi, mi turpis tellus, morbi etiam ultricies ut velit. Aliquam donec faucibus purus.
+The career switch came at a steep cost of $10,000 to attend a coding Boot Camp, which she says was still not enough to learn the skills necessary to get a job. 
 
-Ipsum vel, lorem nibh non. Vestibulum tincidunt amet volutpat nec. Amet velit, enim dolore porta dolor. Ante pretium mattis libero, porttitor posuere. Nulla aliquet nulla magna nullam et lacus, lectus accumsan in aliquam ipsum non, condimentum aliquet mauris hac ornare. Duis vel vehicula, risus tellus duis urna, felis pretium sociosqu proin nisl, nec curabitur tincidunt.
+"You need to know about algorithms and problem-solving skills that they don't teach you," she recalled, "I had to be consistently be making projects and staying up late watching a lot of videos." 
+Outside of the classroom, Christy used resources like Udemy and Treehouse to practice and learn new skills. 
+
+"Treehouse is a great tool for learning new languages because you can watch videos and get tested afterward." Once you get more advanced, she suggested using Udemy, so you can develop your skills through building projects.
+
+As a beginner coder in a new city trying to make it big as a developer, Christy remembers feeling lonely and discouraged. To keep her spirits high and create a network of support, she cited hackathons like SheHacks as the perfect way to make friends.
+
+Currently, Christy is working as a Full Stack Web Developer for YouVisit, a VR company that creates real-world 360° content. "Everyday I'm working on a different project, in a new situation, fixing and solving problems with code," said Kusuma. "The other day I was working with PHP, HTML, CSS, SASS, and some Javascript too. Before that, I had to use React Redux, so it's always different."
+
+In her job, Christy likes to use the following tools:
+VS Code - "Better Version of Sublime"
+Source Tree - "GitHub for Bitbucket"
+Terminal, so she can enjoy some HomeBrew with her cold brew 
+Jira - A  task management tool 
+Chrome + an abundant number of excessive extensions (We both share a love for Catify and CSS Peeper)
+
+On the weekends, Christy tries to achieve work-life balance by taking a break from coding to spend time with her friends. On Sundays, you can either find her at home really tired, exploring New York or working on her dream venture."I love coding, but I think it's kind of like a stepping stone. Someday, I want to work on my own idea or have my own company."

@@ -1,15 +1,34 @@
 ---
 
 layout: post
-title: Wow, Social Impact Blah Blah
+title: An Inside Look at Red Hat's Boston Internship Program with Grace Colbert, Senior Technology Intern at Red Hat
 category: social
-description: Neque nonummy. Ipsum tristique donec viverra at vitae et, amet in. Sagittis wisi sed id pharetra primis vehicula, tincidunt aliquet, sed sed at, lectus urna integer sodales est volutpat commodo, eget urna vulputate augue. Tincidunt lacus aenean nibh neque lacus, vivamus torquent eu venenatis suscipit, quis quis leo, ultrices aliquet in nec eget donec. Massa fusce, at amet dui justo. Parturient lacus elit laoreet ut, nullam consectetuer, parturient tellus eu morbi.
-img:
+description: Grace Colbert is not your average senior technology intern at Red Hat, a multinational software company. A graphic design student at Boston University, she works on a broad range of projects helping to solve design challenges for both Red Hat and the open source community.
+img: grace.jpg
 
 ---
 
-Consequat ultricies eros purus itaque, erat rutrum, sed in sapien est, lacus nec sit eget, pellentesque laoreet dolores. Mi dui placeat eu. Ante eu vel magna dictum massa orci, tortor mauris at, et cras laoreet quam pretium urna, accumsan ut aliquet ipsum vitae neque, nunc sit eu donec ac aenean. Lorem dui fermentum, dolor donec magna tempor, ac integer arcu praesent sapien sit suscipit, lobortis mauris proin, saepe commodi velit sed egestas urna orci. Fringilla enim, ac amet, non fermentum augue imperdiet leo blandit elementum, pellentesque eligendi ut nunc ac a, consequat molestie fermentum tincidunt. Luctus at iaculis ullamcorper arcu, ut placerat, ipsum nostra aut velit odio, egestas vitae.
+Christy Kusuma is living the dream for aspiring developers from non-traditional backgrounds. As a recent graduate of Boston University's College of Communications, Christy has proved that with determination, hard work, and perseverance, anyone can become a developer.
 
-Proin rhoncus vitae rutrum, vel quis porttitor. Mauris lectus lacus, metus maecenas sagittis vel pulvinar, mi lacinia ac venenatis aliquam ipsum sed. Maecenas odio pretium sem eu aenean, ornare nascetur in sed tellus pellentesque semper, pellentesque arcu ultricies sed lorem vivamus. Velit vel urna in. Voluptatem nam, donec sit ligula varius risus, ante amet at ipsum ad sed, vestibulum integer bibendum ipsum ante, malesuada enim cursus ornare vitae id sit. Arcu etiam eu, pellentesque wisi nulla pede et. Eget nec at, aliquam faucibus. Sollicitudin urna auctor sed aliquam sodales molestie, vitae libero commodo, natoque amet, dolor adipiscing tempus. Orci augue nulla viverra erat non ullamcorper, sit id lectus non in commodo amet, commodo cras mauris pede dictumst. Nullam pellentesque nisl nisl, sed porta integer ut luctus vehicula. Interdum purus urna sapien, nunc tincidunt adipiscing dolor, metus ridiculus mollis in. Id ut integer consectetuer a, pede mauris lacinia sit.
+What motivated her to switch from writing articles to writing code? Christy's entrepreneurial spirit.
+"I realized I had all these ideas, but I couldn't make any of them," she said. "So I made a career pivot and joined a Boot Camp because I couldn't wait for anybody else to help me do this. After college, I was coding 24/7. That would be the first thing I woke up to and the last thing I fell asleep to."
 
-Mi ligula ullamcorper proin, sodales vel odio dui arcu pellentesque, semper dolor suscipit mus lacus nullam mollis. Vehicula et, consequat posuere sed eu sed, molestie orci, purus ultricies blandit aliquam, sed eget cras aenean habitant pellentesque. Aliquam eu mollis ultricies wisi mattis dolor, integer congue in, lectus a ut posuere donec. Aliquam netus scelerisque eget in, odio iaculis tellus id fringilla, mauris vel eros, faucibus hendrerit vel ut sit quis, rutrum congue ut purus. Et nec qui sit venenatis, duis ligula dapibus, tincidunt faucibus. Nec phasellus sem sapien euismod amet. Sit netus mollis faucibus vitae, magna conubia, ut urna ac, cum mi adipiscing at etiam eleifend nec, quisque etiam amet suspendisse eget blandit integer. Turpis vitae. Non sit dui. Cras dolorem egestas sit a aenean morbi. Semper non ut duis leo tempus cras, penatibus odio nec volutpat tempor, aut ut nulla aliquam pede quis aenean, est mauris sem egestas conubia bibendum, purus natoque.
+The career switch came at a steep cost of $10,000 to attend a coding Boot Camp, which she says was still not enough to learn the skills necessary to get a job. 
+
+"You need to know about algorithms and problem-solving skills that they don't teach you," she recalled, "I had to be consistently be making projects and staying up late watching a lot of videos." 
+Outside of the classroom, Christy used resources like Udemy and Treehouse to practice and learn new skills. 
+
+"Treehouse is a great tool for learning new languages because you can watch videos and get tested afterward." Once you get more advanced, she suggested using Udemy, so you can develop your skills through building projects.
+
+As a beginner coder in a new city trying to make it big as a developer, Christy remembers feeling lonely and discouraged. To keep her spirits high and create a network of support, she cited hackathons like SheHacks as the perfect way to make friends.
+
+Currently, Christy is working as a Full Stack Web Developer for YouVisit, a VR company that creates real-world 360° content. "Everyday I'm working on a different project, in a new situation, fixing and solving problems with code," said Kusuma. "The other day I was working with PHP, HTML, CSS, SASS, and some Javascript too. Before that, I had to use React Redux, so it's always different."
+
+In her job, Christy likes to use the following tools:
+VS Code - "Better Version of Sublime"
+Source Tree - "GitHub for Bitbucket"
+Terminal, so she can enjoy some HomeBrew with her cold brew 
+Jira - A  task management tool 
+Chrome + an abundant number of excessive extensions (We both share a love for Catify and CSS Peeper)
+
+On the weekends, Christy tries to achieve work-life balance by taking a break from coding to spend time with her friends. On Sundays, you can either find her at home really tired, exploring New York or working on her dream venture."I love coding, but I think it's kind of like a stepping stone. Someday, I want to work on my own idea or have my own company."
