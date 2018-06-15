@@ -4,7 +4,7 @@ layout: post
 title: From Communications to Code with Christy Kusuma, Full Stack Web Developer at YouVisit
 category: data
 description: Christy Kusuma is living the dream for aspiring developers from non-traditional backgrounds. As a recent graduate of Boston University's College of Communications, Christy has proved that with determination, hard work, and perseverance, anyone can become a developer.
-img: laptop.jpg
+img: library.jpg
 
 ---
 

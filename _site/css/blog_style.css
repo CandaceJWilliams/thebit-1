@@ -306,6 +306,14 @@ button.btn.btn-secondary:hover {
     display: block;
   }
 
+  .mobile_image {
+    display: block;
+  }
+
+  .desktop_image {
+    display: none;
+  }
+
   .desktop_button {
     display: none;
   }
@@ -352,12 +360,24 @@ button.btn.btn-secondary:hover {
   #main_image {
     width: 50%;
     height: auto;
+    display: none;
+  }
+
+  #mobile_main_image {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
   .home {
     display: block;
   }
 
+  #featured_section {
+    margin-top: 5%;
+  }
+
+  
 }
 
 
@@ -393,6 +413,14 @@ button.btn.btn-secondary:hover {
     display: block;
   }
 
+  .mobile_image {
+    display: block;
+  }
+
+  .desktop_image {
+    display: none;
+  }
+
   .desktop_button {
     display: none;
   }
@@ -403,6 +431,18 @@ button.btn.btn-secondary:hover {
 
   .desktop_title {
     display: none;
+  }
+
+  #main_image {
+    width: 50%;
+    height: auto;
+    display: none;
+  }
+
+  #mobile_main_image {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
   hr {
@@ -450,6 +490,11 @@ button.btn.btn-secondary:hover {
     font-weight: bold;
   }
 
+  #featured_section {
+    margin-top: 5%;
+  }
+
+  
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -486,7 +531,7 @@ button.btn.btn-secondary:hover {
   .mobile_title {
     display: none;
   }
-
+  
   .desktop_button {
     display: block;
   }
@@ -519,6 +564,18 @@ button.btn.btn-secondary:hover {
     background-color: inherit;
   }
 
+  #main_image {
+    width: 50%;
+    height: auto;
+    display: block;
+  }
+
+  #mobile_main_image {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+
   .row.white {
     padding:40px;
     box-shadow: 0px 8px 6px 0px lightgrey;
@@ -536,25 +593,15 @@ button.btn.btn-secondary:hover {
     font-size: 30px;
     font-weight: bold;
   }
- 
+
+  #featured_section {
+    margin-top: 30%;
+  }
 
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-
-  .left {
-    border-bottom-style: none;
-    border-bottom-width: 0px;
-    border-bottom-color: none;
-
-
-    border-right-style: dashed;
-    border-right-width: 5px;
-    border-right-color: black;
-    margin-top:40px;
-    margin-bottom:40px;
-  }
 
   .navbar-expand-lg .navbar-nav .nav-link{
     margin-right:2.5rem;
@@ -565,33 +612,6 @@ button.btn.btn-secondary:hover {
     margin-bottom:15px;
   }
 
-  .mobile_button {
-    display: none;
-  }
-
-  .mobile_category {
-    display: none;
-  }
-
-  .mobile_title {
-    display: none;
-  }
-
-  .desktop_buttons {
-    display: block;
-  }
-
-  .desktop_category {
-    display: block;
-  }
-
-  .desktop_title {
-    display: block;
-  }
-
-  hr {
-    display: none;
-  }
 
   .name {
     display: none;
@@ -622,55 +642,6 @@ button.btn.btn-secondary:hover {
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-  .left {
-    border-bottom-style: none;
-    border-bottom-width: 0px;
-    border-bottom-color: none;
-
-    
-    border-right-style: dashed;
-    border-right-width: 5px;
-    border-right-color: black;
-    margin-top:40px;
-    margin-bottom:40px;
-  }
-
-  .mobile_button {
-    display: none;
-  }
-
-  .mobile_category {
-    display: none;
-  }
-
-  .mobile_title {
-    display: none;
-  }
-
-  .desktop_buttons {
-    display: block;
-  }
-
-  .desktop_category {
-    display: block;
-  }
-
-  .desktop_title {
-    display: block;
-  }
-
-  hr {
-    display: none;
-  }
-
-  .name {
-    display: none;
-  }
-
-  .middle {
-    display: block;
-  }
-
 
   .intro {
     background-color: inherit;
@@ -692,4 +663,5 @@ button.btn.btn-secondary:hover {
     font-weight: bold;
   }
 
+  
 }
