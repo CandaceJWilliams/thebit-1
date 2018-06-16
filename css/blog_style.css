@@ -105,7 +105,8 @@ p {
 .writing {
 	font-weight: 300;
   color: #808080;
-  font-size:18px;
+  font-size:16px;
+  line-height: 20px;
 }
 
 
@@ -183,7 +184,7 @@ li {
 }
 
 .featured_writing {
-	font-size: 21px;
+	font-size: 16px;
 	font-weight: 300;
   color: #808080;
 }

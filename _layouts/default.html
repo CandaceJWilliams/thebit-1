@@ -23,19 +23,19 @@
                     {% endfor %}
                 </div>
                 
+<!--              Get Rid of This  
                 {% for post in site.categories.featured limit:1 %}
                 <div class="col-md-5 h-100 featured">
                     <div id="featured_section">
                         <h2 class="featured_category">FEATURED</h2>
                         <h3 class="featured_title">{{ post.title }}</h3>
-                        <p class="featured_writing">{{ post.description }}</p>
                     </div>
                     <div>
                         <a class = "secondary" href= "{{ post.url }}"><button target="_blank" class="btn btn-secondary" type="button">READ MORE</button></a>
                    </div>
                    <hr>
                 </div>
-                {% endfor %}
+                {% endfor %} -->
             </div>
 
             <br>
@@ -81,11 +81,10 @@
                         <img class="my-auto secondary_image mobile_image img-fluid" id="image" src="/post_images/{{ post.img }}">
                         <h2 class="mobile_category category">ART</h2>
                         <h3 class="mobile_title title">{{ post.title }}</h3>
-                        <p class="writing">{{ post.description }}</p>
                     
-                        <div class="mobile_button">
+<!--                         <div class="mobile_button">
                             <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button">READ MORE</button></a>
-                        </div>
+                        </div> -->
                         <hr>
                     {% endfor %}
 
@@ -96,11 +95,10 @@
                         <img class="my-auto secondary_image mobile_image img-fluid" id="image" src="/post_images/{{ post.img }}">
                         <h2 class="mobile_category category">DATA SCIENCE</h2>
                         <h3 class="mobile_title title">{{ post.title }}</h3>
-                        <p class="writing">{{ post.description }}</p>
-                    
+<!--                     
                         <div class="mobile_button">
                             <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
-                        </div>
+                        </div> -->
                         <hr>
                     {% endfor %}  
                 </div>
@@ -109,11 +107,10 @@
                         <img class="my-auto secondary_image mobile_image img-fluid" id="image" src="/post_images/{{ post.img }}">
                         <h2 class="mobile_category category">SOCIAL IMPACT</h2>
                         <h3 class="mobile_title title">{{ post.title }}</h3>
-                        <p class="writing">{{ post.description }}</p>
-                    
-                        <div class="mobile_button">
+ 
+<!--                         <div class="mobile_button">
                             <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
-                        </div>
+                        </div> -->
                         <hr>
                     {% endfor %}
                 </div>
@@ -125,9 +122,9 @@
                 <div class="col-md-4 h-100">
                     {% for post in site.categories.art limit:1 %}
                     
-                    <div class="desktop_button">
+<!--                     <div class="desktop_button">
                         <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
-                    </div>
+                    </div> -->
                     {% endfor %}
 
                     
@@ -135,19 +132,19 @@
                 <div class="col-md-4 h-100">
                     {% for post in site.categories.data limit:1 %}
                        
-                    
+<!--                     
                     <div class="desktop_button">
                         <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
-                    </div>
+                    </div> -->
                     {% endfor %}  
                 </div>
                 <div class="col-md-4 h-100">
                     {% for post in site.categories.social limit:1 %}
                         
                     
-                    <div class="desktop_button">
+<!--                     <div class="desktop_button">
                         <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
-                    </div>
+                    </div> -->
                     {% endfor %}
                 </div>
                 
