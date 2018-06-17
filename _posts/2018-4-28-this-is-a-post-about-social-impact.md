@@ -4,7 +4,7 @@ layout: post
 title: An Inside Look at Red Hat's Boston Internship Program with Grace Colbert, Senior Technology Intern at Red Hat
 category: social
 description: Grace Colbert is not your average senior technology intern at Red Hat, a multinational software company. A graphic design student at Boston University, she works on a broad range of projects helping to solve design challenges for both Red Hat and the open source community.
-img: grace.jpg
+img: grace_header.png
 
 ---
 

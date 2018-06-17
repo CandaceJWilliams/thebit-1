@@ -3,7 +3,7 @@
 title: Social impact is exciting
 layout: post
 category: topic-social-impact
-img: default.png
+img: grace_header.png
 time-to-read: 3
 description: Lorem ipsum dolor sit amet, libero eget ipsum cursus torquent elit non, quis diam duis, fusce vitae tortor libero enim arcu at. Torquent dolor ut dignissim est odio, scelerisque sodales eget justo metus, sodales justo ultricies eu, inceptos amet. Condimentum duis cras turpis integer. Nec sed condimentum consequat wisi nec, risus dignissim vel, venenatis cras in nunc eros, venenatis enim pellentesque in vivamus odio convallis, aliquam aliquip neque mauris magna.
 
