@@ -12,7 +12,8 @@ h1.pageHeader {
     font-size:40px;
     font-family: 'Chronicle Cond A','Chronicle Cond B';
     text-align:center;
-        background-color: pink;
+    background-color: cornflowerblue;
+    color:white;
 }
 
 h2.subHeader {

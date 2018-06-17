@@ -1,7 +1,7 @@
 ---
 
 title: theBit
-layout: default
+layout: womenwithlaptops
 
 featured: Test
 art: something about art

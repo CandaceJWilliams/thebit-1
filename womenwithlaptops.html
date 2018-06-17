@@ -1,163 +1,77 @@
+---
+---
+
 <!DOCTYPE html>
 <html>
     <head>
-        {% include head_content.html %}
 
-        <title>{{ page.title }} | {{ site.title }}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>theBit - Blog</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom fonts for this template -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/blog_style.css" rel="stylesheet">
+        <link href="css/explore.css" rel="stylesheet">
+        <link href="css/learn.css" rel="stylesheet">
+
+        <style>
+        </style>
+
 
     </head>
-    <body>
-        
+    <body class ="white">
         {% include nav.html %}
 
         <div class="container h-100">
-
             <div class="row">
-                <div class="col">
-                    <h1 class = "pageHeader"> Women With Laptops </h1>
+
+                <div class="col-md-12">
+                    <h1 class="topic_title">Women With Laptops</h1>
                 </div>
+
             </div>
 
-            <div class="row w-100 h-100">
+            <div class="row" style="margin-bottom:50px;">
 
-                <div class="col-md-4 h-100" >
-                    {% for post in site.categories.art limit:1 %}
-                        <img class="my-auto secondary_image desktop_image img-fluid" id="image" src="/post_images/{{ post.img }}">
-                        <h2 class="desktop_category category">ART</h2>
-                        <h3 class="desktop_title title">{{ post.title }}</h3>
-                    {% endfor %}
-
-                    
-                </div>
-                <div class="col-md-4 h-100">
-                    {% for post in site.categories.data limit:1 %}
-                        <img class="my-auto secondary_image desktop_image img-fluid" id="image" src="/post_images/{{ post.img }}">
-                        <h2 class="desktop_category category">DATA SCIENCE</h2>
-                        <h3 class="desktop_title title">{{ post.title }}</h3>
-                        
-                    {% endfor %}  
-                </div>
-                <div class="col-md-4 h-100">
-                    {% for post in site.categories.social limit:1 %}
-                        <img class="my-auto secondary_image desktop_image img-fluid" id="image" src="/post_images/{{ post.img }}">
-                        <h2 class="desktop_category category">SOCIAL IMPACT</h2>
-                        <h3 class="desktop_title title">{{ post.title }}</h3>
-                        
-                    {% endfor %}
-                </div>
-                
-            </div>
-
-
-            
-            <div class="row w-100 h-100">
-
-                <div class="col-md-4 h-100 ">
-                    {% for post in site.categories.art limit:1 %}
-                        <img class="my-auto secondary_image mobile_image img-fluid" id="image" src="/post_images/{{ post.img }}">
-                        <h2 class="mobile_category category">ART</h2>
-                        <h3 class="mobile_title title">{{ post.title }}</h3>
-                    
-<!--                         <div class="mobile_button">
-                            <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button">READ MORE</button></a>
-                        </div> -->
-                        <hr>
-                    {% endfor %}
-
-                    
-                </div>
-                <div class="col-md-4 h-100">
-                    {% for post in site.categories.data limit:1 %}
-                        <img class="my-auto secondary_image mobile_image img-fluid" id="image" src="/post_images/{{ post.img }}">
-                        <h2 class="mobile_category category">DATA SCIENCE</h2>
-                        <h3 class="mobile_title title">{{ post.title }}</h3>
-<!--                     
-                        <div class="mobile_button">
-                            <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
-                        </div> -->
-                        <hr>
-                    {% endfor %}  
-                </div>
-                <div class="col-md-4 h-100">
-                    {% for post in site.categories.social limit:1 %}
-                        <img class="my-auto secondary_image mobile_image img-fluid" id="image" src="/post_images/{{ post.img }}">
-                        <h2 class="mobile_category category">SOCIAL IMPACT</h2>
-                        <h3 class="mobile_title title">{{ post.title }}</h3>
- 
-<!--                         <div class="mobile_button">
-                            <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
-                        </div> -->
-                        <hr>
-                    {% endfor %}
-                </div>
-                
-            </div>
-
-            <div class="row w-100 h-100">
-
-                <div class="col-md-4 h-100">
-                    {% for post in site.categories.art limit:1 %}
-                    
-<!--                     <div class="desktop_button">
-                        <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
-                    </div> -->
-                    {% endfor %}
-
-                    
-                </div>
-                <div class="col-md-4 h-100">
-                    {% for post in site.categories.data limit:1 %}
-                       
-<!--                     
-                    <div class="desktop_button">
-                        <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
-                    </div> -->
-                    {% endfor %}  
-                </div>
-                <div class="col-md-4 h-100">
-                    {% for post in site.categories.social limit:1 %}
-                        
-                    
-<!--                     <div class="desktop_button">
-                        <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
-                    </div> -->
-                    {% endfor %}
-                </div>
-
-                {% for post in site.categories.featured limit:1 %}
-                    <img class="my-auto" id="mobile_main_image" src="/post_images/{{ post.img }}" alt="Hands" width="600px" height="600px">
-                    {% endfor %}
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            {% for post in site.categories.featured limit:1 %}
-                            <img class="my-auto" id="main_image" src="/post_images/{{ post.img }}" alt="Hands" width="600px" height="600px">
-                            {% endfor %}
-                        </div>
-                        
-        <!--              Get Rid of This  
-                        {% for post in site.categories.featured limit:1 %}
-                        <div class="col-md-5 h-100 featured">
-                            <div id="featured_section">
-                                <h2 class="featured_category">FEATURED</h2>
-                                <h3 class="featured_title">{{ post.title }}</h3>
-                            </div>
-                            <div>
-                                <a class = "secondary" href= "{{ post.url }}"><button target="_blank" class="btn btn-secondary" type="button">READ MORE</button></a>
-                           </div>
-                           <hr>
-                        </div>
-                        {% endfor %} -->
+                <div class="col-md-5 white">
+                    <div style="position: absolute; top: 30%;">
+                        <h1>Loe Lee, Product Designer at HubSpot Shares Her Journey at SheSpeaks</h1>
+                        <h1 class ="subtitle">By Fiona Whittington</h1>
                     </div>
+                    
+                </div>
 
-                    <br>
-                    <br>
-                    <br>
+                <!-- <div class="col-md-6 white">
+                    <video class="col-md-6 white" width="400" controls>
+                        <source src="videos/default.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div> -->
+
+                <div class="col-md-6 white">
+                    <div align="center" class="embed-responsive embed-responsive-16by9">
+                        <video class="embed-responsive-item" controls>
+                            <source src="videos/default.mp4" type=video/mp4>
+                        </video>
+                    </div>
+                </div>
                 
+
             </div>
+
         </div>
-
-
 
         <!--Footer-->
         {% include footer.html %}
