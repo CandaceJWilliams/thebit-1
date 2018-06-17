@@ -1,6 +1,4 @@
-h2 {
-  font-size: 20px;
-}
+
 
 .pad {
   margin-bottom:100px;
@@ -14,20 +12,59 @@ h3 {
 
 /*Header Styles*/
 
-p.subHeader {
-  padding-left:10px;
-  padding-top:10px;
+.cb-module-header {
+  margin: 0px;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 5px;
+  padding: 0px 30px 0px 0px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.cb-module-header::after {
+  content:"";
+  display: block;
+  height: 6px;
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  width: 100%;
+  left: 100%;
+  background-color: black;
+}
+
+/*Styling Position Titles*/
+
+
+p.bio:hover {
+  padding:30px 30px 30px 30px;
+  color: white;
+  position:absolute;
   font-size:14px;
+  bottom: 5px;
+  margin-top:20px;
+  font: 'Barlow';
+  line-height: 1.2;
 }
 
 h2.titleHeader {
-  font-size:25px;
-  line-height:27px;
-  font-weight:700;
+  font-size:23px;
+  line-height:30px;
   letter-spacing: 1px;
-  color:#ed559c;
-  padding-left:10px;
-  padding-top:10px;
+  color: black;
+  position:absolute;
+  bottom:50px;
+  padding-bottom:7px;
+  font-family: 'Barlow', sans-serif;
+  width: 100%;
+  padding-top: 30px; 
+}
+
+h2.titleHeader:hover {
+  background-color: rgb(250, 175, 107, 0.9);
+  color: white;
 }
 
 h3.titleHeader {
@@ -38,6 +75,15 @@ h3.titleHeader {
   color:#ed559c;
   padding-left:10px;
   padding-top:10px;
+  position:absolute;
+  bottom:14px;
+  left:25%;  
+}
+
+.contact-social-icon {
+  position: absolute;
+  top:50%;
+  left: 50%;
 }
 
 .profilePic {
@@ -65,4 +111,5 @@ button {
   font: inherit;
   cursor: pointer;
   outline: inherit;
+  position:relative;
 }

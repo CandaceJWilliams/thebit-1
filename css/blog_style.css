@@ -74,7 +74,7 @@ h1, h2, h3, p {
 }
 
 p {
-  font-size:21px;
+  font-size:16px;
 }
 
 .nav-link {
@@ -162,14 +162,14 @@ footer.page-footer.font-small.indigo.pt-0{
 .article_title {
 	font-size: 40px;
 	font-weight: bold;
-}
+}.
 
 li, p, ul {
   font-size: 21px;
 }
 
 li {
-  font-size: 21px;
+  font-size: 16px;
 }
 
 #keypoint {

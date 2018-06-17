@@ -117,6 +117,12 @@ body{
   padding: 10px;
 }
 
+/*Styling Navigation*/
+
+a.nav-link {
+  font-size:12px;
+}
+
 /*img {
   border-style: solid;
   border-color: black;
