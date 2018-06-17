@@ -124,13 +124,13 @@
                     {% endfor %}
                 </div>
 
-                {% for post in site.categories.featured limit:1 %}
+                {% for post in site.categories.social limit:1 %}
                     <img class="my-auto" id="mobile_main_image" src="/post_images/{{ post.img }}" alt="Hands" width="600px" height="600px">
                     {% endfor %}
 
                     <div class="row">
                         <div class="col-md-12">
-                            {% for post in site.categories.featured limit:1 %}
+                            {% for post in site.categories.social limit:1 %}
                             <img class="my-auto" id="main_image" src="/post_images/{{ post.img }}" alt="Hands" width="600px" height="600px">
                             {% endfor %}
                         </div>

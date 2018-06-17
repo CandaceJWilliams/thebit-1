@@ -9,18 +9,20 @@ h1.headerTitle {
 /*Header Styling*/
 
 h1.pageHeader {
-    font-size:40px;
+    font-size:84px;
     font-family: 'Chronicle Cond A','Chronicle Cond B';
     text-align:center;
-    background-color: cornflowerblue;
-    color:white;
+    background-color:white;
+    color: black;
     margin-bottom:30px;
+    padding:50px;
+    text-transform: uppercase;
 }
 
 h2.subHeader {
     font-size: 25px;
     font-style: italic;
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
 }
 
@@ -97,6 +99,11 @@ p {
   font-family: 'Chronicle Cond A','Chronicle Cond B';
 }
 
+.bg-light {
+  background-color:white!important;
+}
+
+
 .nav-link {
 	color: #d1d1d1;
 	text-decoration: none;
@@ -106,7 +113,6 @@ p {
 	color: #d1d1d1;
 	text-decoration: none;
 	border-bottom-style: solid;
-	border-bottom-color: #f8ae6b;
 	border-bottom-width: 5px;
 	border-radius: 3px;
 }
