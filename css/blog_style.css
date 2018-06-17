@@ -1,4 +1,11 @@
 
+h1.headerTitle {
+  font-size:100px;
+  font-family: SignPainter;
+  padding-top:30px;
+  text-align:center;
+  width:100%;
+}
 /*Header Styling*/
 
 h1.pageHeader {
@@ -58,7 +65,7 @@ h3.article_title {
   border-width:0px 0px 1px 0px;
 }
 
-#logo {
+#logo2 {
   padding:10px 10px 10px 20px;
 }
 
@@ -204,7 +211,6 @@ li {
 #img_container {
   border-style: solid;
   border-color: white;
-  margin: 10px;
   padding: 20px;
   margin: 40px;
 
@@ -655,7 +661,7 @@ button.btn.btn-secondary:hover {
 
   #main_image {
     position: relative;
-    top: 9%;
+    top: 2%;
     height: auto;
   }
 

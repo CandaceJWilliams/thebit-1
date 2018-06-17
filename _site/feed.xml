@@ -3,9 +3,9 @@
 
     <channel>
         <title>Blog</title>
-        <link>http://localhost:4000</link>
+        <link></link>
         <description></description>
-        <lastBuildDate>Sun, 17 Jun 2018 14:51:19 -0400</lastBuildDate>
+        <lastBuildDate>Sun, 17 Jun 2018 16:16:56 -0400</lastBuildDate>
         
         <item>
             <description>
@@ -14,7 +14,7 @@
             </description>
             <pubDate>Sat, 05 May 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/video/another-amazing-video.html
+                /video/another-amazing-video.html
             </guid>
         </item>
         
@@ -25,7 +25,7 @@
             </description>
             <pubDate>Sat, 05 May 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/video/amazing-video.html
+                /video/amazing-video.html
             </guid>
         </item>
         
@@ -40,7 +40,7 @@ habitabilis accipis coloribus rostrisque fuit &lt;em&gt;arva&lt;/em&gt; pollutos
             </description>
             <pubDate>Fri, 04 May 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/topic-social-impact/something-about-social-impact-topic.html
+                /topic-social-impact/something-about-social-impact-topic.html
             </guid>
         </item>
         
@@ -56,7 +56,7 @@ addiderat turbasti &lt;a href=&q...
             </description>
             <pubDate>Fri, 04 May 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/topic-science/something-about-science-topic.html
+                /topic-science/something-about-science-topic.html
             </guid>
         </item>
         
@@ -73,7 +73,7 @@ Talia sparsas ore notavi en omnes non maiore cerva discedere vulnerat
             </description>
             <pubDate>Fri, 04 May 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/topic-music/something-about-music-topic.html
+                /topic-music/something-about-music-topic.html
             </guid>
         </item>
         
@@ -88,7 +88,7 @@ Cunctaque et zonae enim felle adversas iustis fixit faciunt &lt;strong&gt;hoc&lt
             </description>
             <pubDate>Fri, 04 May 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/topic-engineering/something-about-engineering-topic.html
+                /topic-engineering/something-about-engineering-topic.html
             </guid>
         </item>
         
@@ -103,7 +103,7 @@ et nidos: ore. Quae et hic &lt;a href=&quot;http://www.in-cani.org/quem-est.aspx
             </description>
             <pubDate>Fri, 04 May 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/topic-art/something-about-art-topic.html
+                /topic-art/something-about-art-topic.html
             </guid>
         </item>
         
@@ -115,7 +115,7 @@ et nidos: ore. Quae et hic &lt;a href=&quot;http://www.in-cani.org/quem-est.aspx
             </description>
             <pubDate>Sat, 28 Apr 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/social/this-is-a-post-about-social-impact.html
+                /social/this-is-a-post-about-social-impact.html
             </guid>
         </item>
         
@@ -127,7 +127,7 @@ et nidos: ore. Quae et hic &lt;a href=&quot;http://www.in-cani.org/quem-est.aspx
             </description>
             <pubDate>Sat, 28 Apr 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/data/this-is-a-post-about-data-science.html
+                /data/this-is-a-post-about-data-science.html
             </guid>
         </item>
         
@@ -137,7 +137,7 @@ et nidos: ore. Quae et hic &lt;a href=&quot;http://www.in-cani.org/quem-est.aspx
             </description>
             <pubDate>Sat, 28 Apr 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/art/this-is-a-post-about-art.html
+                /art/this-is-a-post-about-art.html
             </guid>
         </item>
         
@@ -148,7 +148,7 @@ et nidos: ore. Quae et hic &lt;a href=&quot;http://www.in-cani.org/quem-est.aspx
             </description>
             <pubDate>Sat, 28 Apr 2018 00:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/featured/how-to-plan-an-all-female-hackathon.html
+                /featured/how-to-plan-an-all-female-hackathon.html
             </guid>
         </item>
         
@@ -159,7 +159,7 @@ et nidos: ore. Quae et hic &lt;a href=&quot;http://www.in-cani.org/quem-est.aspx
             </description>
             <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/video-post-template.html
+                /video-post-template.html
             </guid>
         </item>
         
@@ -170,7 +170,7 @@ et nidos: ore. Quae et hic &lt;a href=&quot;http://www.in-cani.org/quem-est.aspx
             </description>
             <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/video-post-template-Copy.html
+                /video-post-template-Copy.html
             </guid>
         </item>
         
@@ -181,7 +181,7 @@ et nidos: ore. Quae et hic &lt;a href=&quot;http://www.in-cani.org/quem-est.aspx
             </description>
             <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/ss-post-template.html
+                /ss-post-template.html
             </guid>
         </item>
         
@@ -192,7 +192,7 @@ et nidos: ore. Quae et hic &lt;a href=&quot;http://www.in-cani.org/quem-est.aspx
             </description>
             <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/regular-post-template.html
+                /regular-post-template.html
             </guid>
         </item>
         
@@ -203,7 +203,7 @@ et nidos: ore. Quae et hic &lt;a href=&quot;http://www.in-cani.org/quem-est.aspx
             </description>
             <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/regular-post-template-Copy.html
+                /regular-post-template-Copy.html
             </guid>
         </item>
         
@@ -214,7 +214,7 @@ et nidos: ore. Quae et hic &lt;a href=&quot;http://www.in-cani.org/quem-est.aspx
             </description>
             <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/explore-post-template.html
+                /explore-post-template.html
             </guid>
         </item>
         

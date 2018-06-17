@@ -20,7 +20,7 @@ p {
 }
 
 p.mb-5 {
-  font-family: Slack-Averta,appleLogo,sans-serif;
+  font-family: Slack-Averta,applelogo2,sans-serif;
 }
 
 h1.mb-3{
@@ -94,7 +94,7 @@ body{
   z-index: 1;
 }
 
-#logo {
+#logo2 {
   padding:10px 10px 10px 20px;
 }
 
@@ -117,11 +117,6 @@ body{
   padding: 10px;
 }
 
-/*Styling Navigation*/
-
-a.nav-link {
-  font-size:12px;
-}
 
 /*img {
   border-style: solid;

@@ -38,7 +38,7 @@ h3 {
 /*Styling Position Titles*/
 
 
-p.bio:hover {
+p.bio {
   padding:30px 30px 30px 30px;
   color: white;
   position:absolute;
