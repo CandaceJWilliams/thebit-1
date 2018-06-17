@@ -4,7 +4,7 @@ layout: post
 title: So You Want to Plan an All-Female Hackathon? Article 2&#58 Time Management
 category: featured
 description: Time management is an essential skill an organizer must learn. Not only for the better of their event, but for their own well-being.
-img: library_graphic.png
+img: library2.png
 author: Fiona Whittington
 
 ---
