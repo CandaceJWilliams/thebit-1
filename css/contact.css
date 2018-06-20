@@ -38,13 +38,13 @@ h3 {
 /*Styling Position Titles*/
 
 
-p.bio {
-  padding:30px 30px 30px 30px;
+.bio p {
+  padding:30px 30px 0px 30px;
   color: white;
   position:absolute;
   font-size:14px;
-  bottom: 5px;
   margin-top:20px;
+  margin-bottom:0px;
   font: 'Barlow';
   line-height: 1.2;
 }
@@ -55,16 +55,10 @@ h2.titleHeader {
   letter-spacing: 1px;
   color: black;
   position:absolute;
-  bottom:50px;
+  bottom:5px;
   padding-bottom:7px;
   font-family: 'Barlow', sans-serif;
   width: 100%;
-  padding-top: 30px; 
-}
-
-h2.titleHeader:hover {
-  background-color: rgb(250, 175, 107, 0.9);
-  color: white;
 }
 
 h3.titleHeader {
@@ -76,14 +70,19 @@ h3.titleHeader {
   padding-left:10px;
   padding-top:10px;
   position:absolute;
-  bottom:14px;
+  bottom:5px;
   left:25%;  
 }
 
 .contact-social-icon {
   position: absolute;
-  top:50%;
-  left: 50%;
+  top:45%;
+  left: 40%;
+  color:white;
+}
+
+.contact-social-icon:hover {
+  color:black;
 }
 
 .profilePic {
