@@ -18,45 +18,13 @@
                 </div>
             </div>
 
-            <div class="row w-100 h-100">
-
-                <div class="col-md-4 h-100" >
-                    {% for post in site.categories.art limit:1 %}
-                        <img class="my-auto secondary_image desktop_image img-fluid" id="image" src="/post_images/{{ post.img }}">
-                        <h2 class="desktop_category category">ART</h2>
-                        <h3 class="desktop_title title">{{ post.title }}</h3>
-                    {% endfor %}
-
-                    
-                </div>
-                <div class="col-md-4 h-100">
-                    {% for post in site.categories.data limit:1 %}
-                        <img class="my-auto secondary_image desktop_image img-fluid" id="image" src="/post_images/{{ post.img }}">
-                        <h2 class="desktop_category category">DATA SCIENCE</h2>
-                        <h3 class="desktop_title title">{{ post.title }}</h3>
-                        
-                    {% endfor %}  
-                </div>
-                <div class="col-md-4 h-100">
-                    {% for post in site.categories.social limit:1 %}
-                        <img class="my-auto secondary_image desktop_image img-fluid" id="image" src="/post_images/{{ post.img }}">
-                        <h2 class="desktop_category category">SOCIAL IMPACT</h2>
-                        <h3 class="desktop_title title">{{ post.title }}</h3>
-                        
-                    {% endfor %}
-                </div>
-                
-            </div>
-
-
-            
-            <div class="row w-100 h-100">
+              <div class="row w-100 h-100">
 
                 <div class="col-md-4 h-100 ">
                     {% for post in site.categories.art limit:1 %}
-                        <img class="my-auto secondary_image mobile_image img-fluid" id="image" src="/post_images/{{ post.img }}">
-                        <h2 class="mobile_category category">ART</h2>
-                        <h3 class="mobile_title title">{{ post.title }}</h3>
+                        <img class="my-auto secondary_image  img-fluid" id="image" src="/post_images/{{ post.img }}">
+                        <h2 class=" category">ART</h2>
+                        <h3 class=" title">{{ post.title }}</h3>
                     
 <!--                         <div class="mobile_button">
                             <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button">READ MORE</button></a>
@@ -68,9 +36,9 @@
                 </div>
                 <div class="col-md-4 h-100">
                     {% for post in site.categories.data limit:1 %}
-                        <img class="my-auto secondary_image mobile_image img-fluid" id="image" src="/post_images/{{ post.img }}">
-                        <h2 class="mobile_category category">DATA SCIENCE</h2>
-                        <h3 class="mobile_title title">{{ post.title }}</h3>
+                        <img class="my-auto secondary_image img-fluid" id="image" src="/post_images/{{ post.img }}">
+                        <h2 class="category">DATA SCIENCE</h2>
+                        <h3 class="title">{{ post.title }}</h3>
 <!--                     
                         <div class="mobile_button">
                             <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
@@ -80,9 +48,9 @@
                 </div>
                 <div class="col-md-4 h-100">
                     {% for post in site.categories.social limit:1 %}
-                        <img class="my-auto secondary_image mobile_image img-fluid" id="image" src="/post_images/{{ post.img }}">
-                        <h2 class="mobile_category category">SOCIAL IMPACT</h2>
-                        <h3 class="mobile_title title">{{ post.title }}</h3>
+                        <img class="my-auto secondary_image img-fluid" id="image" src="/post_images/{{ post.img }}">
+                        <h2 class="category">SOCIAL IMPACT</h2>
+                        <h3 class="title">{{ post.title }}</h3>
  
 <!--                         <div class="mobile_button">
                             <a class = "secondary" href="{{ post.url }}" target="_blank"><button class="btn btn-secondary" type="button" >READ MORE</button></a>
