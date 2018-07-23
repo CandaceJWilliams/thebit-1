@@ -1,0 +1,270 @@
+body {
+	background-color: #ed7b65;
+	font-family: 'Overpass', sans-serif;
+	color: white;
+}
+
+#logoStyle {
+	padding:10px;
+}
+
+.main {
+	margin-top: 10%;
+}
+
+.texts {
+	text-align: right;
+}
+
+.texts > h3 {
+	text-align: right;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.texts > h1 {
+	font-size: 60px;
+}
+
+.texts > form > h4 {
+	color: white;
+}
+
+
+a.controller {
+	color: white;
+	text-decoration: none;
+	font-size:20px;
+}
+
+a.controller:hover {
+	transition: .5s ease;
+	color: #f9e700;
+}
+
+#project {
+	display: inline-block;
+	border-style: solid;
+	border-radius: 50%;
+}
+
+#object {
+	position: absolute;
+	left: 68%;
+	bottom: 60%;
+	pointer-events: none;
+	z-index: 1;
+}
+
+#image-holder {
+	border-radius: 50%;
+	display: inline-block;
+	background-color: black;
+}
+
+#image {
+	transition: .5s ease;
+	border-radius: 50%;
+	position: relative;
+	border: solid 2px #f9e700;
+}
+
+#image:hover {
+	opacity: 0.5;
+}
+
+.title-overlay {
+	position: absolute;
+	transition: .5s ease;
+	top: 20%;
+  left: 30%;
+  text-align:center;
+  display: none;
+  pointer-events: none;
+}
+
+.description-overlay {
+	position: absolute;
+	transition: .5s ease;
+	top: 40%;
+  left: 15%;
+  display: none;
+  pointer-events: none;
+}
+
+.continue {
+	display: none;
+}
+
+#mc_embed_signup input.button {
+	margin-top: 10px;
+	background-color: #f9e700;
+	color: black;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+	font-family: 'Overpass', sans-serif;
+	float: right;
+}
+
+#mc_embed_signup input.button:hover {
+	transition: .5s ease;
+	color: black;
+	background-color:#d1c314;
+
+}
+
+#mc_embed_signup input.email {
+	border-color: white;
+	width:100% !important;
+}
+
+input[type = text] {
+/*	width: 50%;*/
+	border: 1px solid white;
+	background-color: #ed7b65;
+}
+
+input[type = email] {
+	background-color: #ed7b65;
+}
+
+.social-icons {
+	position: absolute;
+	bottom: 0;
+	display: inline-block;
+	padding-left: 40px;
+	padding-bottom: 10px;
+
+}
+
+.social-icons > a {
+	font-size: 30px;
+	padding-right: 20px;
+	color: white;
+}
+
+.social-icons > a:hover {
+	color: #f9e700;
+	transition: .5s ease;
+}
+
+
+
+@media (max-width: 575px) { 
+
+	.texts {
+		text-align: center;
+	}
+
+
+	.slider {
+		display: none;
+	}
+
+	.main {
+		margin-top: 20%;
+	}
+
+	.texts > h3 {
+		text-align:center;
+		/*padding-bottom: 5%;*/
+	}
+
+	#object {
+		z-index: -1;
+		width: 30%;
+		left: 65%;
+		bottom: 70%;
+	}
+
+}
+
+@media (min-width: 576px) {
+
+	.texts {
+		text-align: center;
+	}
+
+	.texts > h1 {
+/*		padding-left: 5%;
+		padding-right: 5%;*/
+		text-align: right;
+		font-weight: 900;
+		line-height: 65px;
+
+	}
+
+	.texts > h3 {
+		text-align: right;
+		font-weight: 300;
+		padding-left: 10%;
+		font-size: 20px;
+	}
+
+	.main {
+		margin-top: 20%;
+	}
+
+	.slider {
+		display: none;
+	}
+
+	#object {
+		display: block;
+	} 
+
+	#object {
+		z-index: -1;
+	}
+}
+
+@media (min-width: 768px) { 
+}
+
+@media (min-width: 992px) { 
+
+	.main {
+		margin-top: 10%;
+	}
+
+	.slider {
+		display: block;
+	}
+
+	#object {
+		left: 75%;
+		bottom: 65%;
+	}
+
+	#object {
+		z-index: 1;
+	}
+
+
+
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}

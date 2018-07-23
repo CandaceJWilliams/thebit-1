@@ -1,122 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
+	<title>The Bit</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Coming Soon - The Bit</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
-    <link href="css/coming-soon.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <!--fontawesome-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Overpass:300,400,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
-
 <body>
+	<img id = "logoStyle" src="images/thebit_logo.png">
+	<div class="container main">
 
-      
-    <div class="header clearfix">
+		<div class="row">
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-6">
-                <img id ="logo" src="main_images/logo.png" width="150px" height="50px" alt="The Bit logo">
-            </div>
-                <div class="header-icons col-6 col my-auto mx-auto" >
+			<div class="col-md-6 texts">
 
-                    <a href="https://www.facebook.com/thebit.blog/" target="_blank">
-                        <i class="fa fa-facebook"></i>
-                    </a>
+				<h1>Showcase Your Projects</h1>
+				<h3>Use the Bit to showcase and discover projects made by women in tech. We're on a mission to empower women to make ideas happen.</h3>
 
-                    <a href="https://www.instagram.com/thebit.blog/" target="_blank">
-                        <i class="fa fa-instagram"></i>
-                    </a>   
+				<!-- Begin MailChimp Signup Form -->
+				<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+				<style type="text/css">
+					#mc_embed_signup{clear:right; font:14px; text-transform: uppercase; font-family: 'Overpass', sans-serif; }
+					/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+					   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+				</style>
+				<div id="mc_embed_signup">
+				<form action="https://blog.us18.list-manage.com/subscribe/post?u=09201fd289958dcbf8b8cbc0d&amp;id=6ea51e7788" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				    <div id="mc_embed_signup_scroll">
+					
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_09201fd289958dcbf8b8cbc0d_6ea51e7788" tabindex="-1" value=""></div>
+				    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				    </div>
+				</form>
+				</div>
 
-                </div>
-            </div>
-        </div>
-    </div>
+				<!--End mc_embed_signup-->
 
-    <div class="social-icons my-auto" style="z-index: 5;">
-        <ul class="list-unstyled text-center mb-0">
+			</div>
 
-            <li class="list-unstyled-item">
-                <a href="https://www.facebook.com/thebit.blog/" target="_blank">
-                    <i class="fa fa-facebook"></i>
-                </a>
-            </li>
+			<img class="img-fluid" id="object" src="images/object.png">
 
-            <li class="list-unstyled-item">
-                <a href="https://www.instagram.com/thebit.blog/" target="_blank">
-                    <i class="fa fa-instagram"></i>
-                </a>
-            </li>
+			<div class="col-md-6 slider">
 
-        </ul>
-    </div>
+				<div class="project">
+					<div id="image-holder"><img id="image" src="images/laptop.jpg" width="400"></div>
+					<div class="row title-overlay"><h3>Tagged</h3></div>
+					<div class="row description-overlay">An online platform for the social impact sector<br> to engage with current events and emphasize <br>the project work of non-profits related to this <br> current news.</div>
+				</div>
+				<div class="row">
+					<div class="col-md-5"></div>
+					<div class="col-md-7 starter">
+						<h3><a class="controller" href="#">Browse Projects ></a></h3>
+					</div>
+					<div class="col-md-7 continue">
+						<h3><a style="text-decoration: none;" class="controller" onclick="update(-1)" href="#">< Back</a> <a style="text-decoration: none;" class="controller" onclick="update(1)" href="#"> Next ></a></h3>
+					</div>
+				</div>
+			</div>
 
-    <div class="container h-100">
+		</div>
+	</div>
 
-        <div class="row h-100">
-          
-            <div class="col-xs-12 col-md-12 col-lg-6 my-auto">
-                <div class="masthead-content text-white py-5 py-md-0">
+	<!-- <div class="hvrbox hvrbox_background" style="background-image: url(img/photos/photo1.jpg);">
+		<div class="hvrbox-layer_top">
+			<div class="hvrbox-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
+		</div>
+	</div> -->
 
-                    <div class="container">
-                        <div class="row">
-                            <h1 class="mb-3 col-sm-6 col-md-6 col-lg-12">Coming Soon!</h1>
-                            <div class="col-sm-6 col-md-6 col-lg-12">
-                                <img id="small_image" src="main_images/hands.png" alt="Hands"> <!--This doesn't appear on desktops. It displays only on mobile-->
-                            </div>
-                        </div>
-                    </div>
+	<div class="row social-icons">
+		<a href="https://www.facebook.com/thebit.blog/" target="_blank"><i class="fab fa-twitter"></i></a>
+		<a href="https://www.instagram.com/thebit.blog/" target="_blank"><i class="fab fa-instagram"></i></a>
+		<a href="https://twitter.com/thebit_blog" target="_blank"><i class="fab fa-facebook"></i></a>
+	</div>
 
-                    <p class="textbox mb-5">The Bit, a mentoring platform and blog (featuring only female-produced content) for women and femme non-binary individuals in technology.</p>
-                    <div class="button">
-                        <div class="textbox">
-                            <a href="https://bu-spark.typeform.com/to/OdEIiZ" target="_blank">
-                                <button class="btn btn-secondary" type="button">JOIN OUR TEAM</button>
-                            </a>
-                        </div>
-                    </div>  
-                </div>
-            </div>
+	<script type="text/javascript" src="functionality.js"></script>
 
-            <div class="col-xs-12 col-md-12 col-lg-6 my-auto">
-                <img id="large_image" src="main_images/hands.png" alt="Hands" width="400px" height="400px"> <!--This doesn't appear on mobile. It displays only on desktop-->
-            </div>
-
-            <div class="col-xs-12 col-md-12 col-lg-12">
-                <img id="mobile_image" src="main_images/cropped_image.png" alt="Hands">
-            </div>
-
-        </div>
-    </div>
-
-
-
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/vide/jquery.vide.min.js"></script>
-
-    <!-- Custom scripts for this template 
-    <script src="js/coming-soon.min.js"></script>
-    -->
-
-  </body>
-
+</body>
 </html>
