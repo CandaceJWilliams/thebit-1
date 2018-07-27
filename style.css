@@ -5,11 +5,12 @@ body {
 }
 
 #logoStyle {
-	padding:10px;
+	padding-left: 10px;
+	padding-top: 10px;
 }
 
 .main {
-	margin-top: 10%;
+	margin-top: 7%; 
 }
 
 .texts {
@@ -23,7 +24,7 @@ body {
 }
 
 .texts > h1 {
-	font-size: 60px;
+	font-size: 45px;
 }
 
 .texts > form > h4 {
@@ -50,9 +51,8 @@ a.controller:hover {
 
 #object {
 	position: absolute;
+	top: 12%;
 	left: 68%;
-	bottom: 60%;
-	pointer-events: none;
 	z-index: 1;
 }
 
@@ -63,13 +63,12 @@ a.controller:hover {
 }
 
 #image {
-	transition: .5s ease;
 	border-radius: 50%;
 	position: relative;
 	border: solid 2px #f9e700;
 }
 
-#image:hover {
+/*#image:hover {
 	opacity: 0.5;
 }
 
@@ -94,20 +93,22 @@ a.controller:hover {
 
 .continue {
 	display: none;
-}
+}*/
 
 #mc_embed_signup input.button {
 	margin-top: 10px;
+	padding: 5px;
 	background-color: #f9e700;
 	color: black;
-  border: none;
-  font-size: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  text-transform: uppercase;
+	border: none;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
 	font-family: 'Overpass', sans-serif;
 	float: right;
+	padding: 10px 15px 10px 15px;
 }
 
 #mc_embed_signup input.button:hover {
@@ -118,8 +119,13 @@ a.controller:hover {
 }
 
 #mc_embed_signup input.email {
+	border-style: solid;
 	border-color: white;
-	width:100% !important;
+	border-width: 1px;
+	float: right;
+	width: 50% !important;
+	height: 30px;
+	margin-left: 100%;
 }
 
 input[type = text] {
@@ -154,12 +160,30 @@ input[type = email] {
 
 
 
-@media (max-width: 575px) { 
+@media (max-width: 575px) {
 
-	.texts {
-		text-align: center;
+	#object {
+		width: 30%;
 	}
 
+
+
+	body {
+		justify-content: center;
+	}
+
+	#mc_embed_signup input.email {
+		float: none;
+		margin-left: 0%;
+	}
+
+	#mc_embed_signup input.button { 
+		float: none;
+	}
+
+	#mc_embed_signup_scroll {
+		text-align: center;
+	}
 
 	.slider {
 		display: none;
@@ -167,6 +191,13 @@ input[type = email] {
 
 	.main {
 		margin-top: 20%;
+		z-index: 2;
+	}
+
+	.texts > h1 {
+		text-align: center;
+		font-size: 35px;
+
 	}
 
 	.texts > h3 {
@@ -174,28 +205,71 @@ input[type = email] {
 		/*padding-bottom: 5%;*/
 	}
 
-	#object {
-		z-index: -1;
-		width: 30%;
-		left: 65%;
-		bottom: 70%;
-	}
-
 }
 
 @media (min-width: 576px) {
 
-	.texts {
+	
+
+	#mc_embed_signup input.email {
+		float: none;
+		margin-left: 0%;
+	}
+
+	#mc_embed_signup input.button { 
+		float: none;
+	}
+
+	#mc_embed_signup_scroll {
 		text-align: center;
 	}
 
 	.texts > h1 {
-/*		padding-left: 5%;
-		padding-right: 5%;*/
+		text-align: center;
+		font-weight: 900;
+		line-height: 65px;
+	}
+
+	.texts > h3 {
+		text-align: center;
+		font-weight: 300;
+		padding-left: 10%;
+		font-size: 20px;
+	}
+
+	.main {
+		margin-top: 20%; 
+	}
+
+	.slider {
+		display: none;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	.main {
+		margin-top: 15%; 
+	}
+
+}
+
+@media (min-width: 992px) { 
+
+	.main {
+		margin-top: 7%; 
+	}
+
+	#object {
+		left: 78%;
+
+	}
+
+	.texts > h1 {
 		text-align: right;
 		font-weight: 900;
 		line-height: 65px;
-
 	}
 
 	.texts > h3 {
@@ -205,51 +279,17 @@ input[type = email] {
 		font-size: 20px;
 	}
 
-	.main {
-		margin-top: 20%;
-	}
-
-	.slider {
-		display: none;
-	}
-
-	#object {
-		display: block;
-	} 
-
-	#object {
-		z-index: -1;
-	}
-}
-
-@media (min-width: 768px) { 
-}
-
-@media (min-width: 992px) { 
-
-	.main {
-		margin-top: 10%;
-	}
-
 	.slider {
 		display: block;
 	}
-
-	#object {
-		left: 75%;
-		bottom: 65%;
-	}
-
-	#object {
-		z-index: 1;
-	}
-
-
-
 
 }
 
 @media (min-width: 1200px) {
+
+	#object {
+		left: 68%;
+	}
 
 }
 
