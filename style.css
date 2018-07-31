@@ -73,9 +73,10 @@ a.controller:hover {
 
 #object {
 	position: absolute;
-	top: 12%;
-	left: 68%;
-	z-index: 1;
+	top: 100px;
+	right: 33%;
+	z-index: -100;
+	opacity: 0.5;
 }
 
 #image-holder {
@@ -88,6 +89,13 @@ a.controller:hover {
 	border-radius: 50%;
 	position: relative;
 	border: solid 2px #f9e700;
+}
+
+#mc_embed_signup {
+	clear: right;
+	font: 14px;
+	text-transform: uppercase;
+	font-family: 'Overpass', sans-serif;
 }
 
 #mc_embed_signup input.button {
@@ -158,9 +166,6 @@ input[type = email] {
 	body {
 		justify-content: center;
 	}
-	#object {
-		width: 30%;
-	}
 	#mc_embed_signup input.email {
 		float: none;
 		margin-left: 0%;
@@ -212,11 +217,9 @@ input[type = email] {
 }
 
 @media (min-width: 768px) {
-
 	.main {
 		margin-top: 15%; 
 	}
-
 }
 
 @media (min-width: 992px) { 
@@ -224,7 +227,8 @@ input[type = email] {
 		margin-top: 7%; 
 	}
 	#object {
-		left: 78%;
+		z-index: 1;
+		opacity: 1;
 	}
 	.texts > h1 {
 		text-align: right;
@@ -244,9 +248,6 @@ input[type = email] {
 }
 
 @media (min-width: 1200px) {
-	#object {
-		left: 68%;
-	}
 }
 
 ::-webkit-input-placeholder {
