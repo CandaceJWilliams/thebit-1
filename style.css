@@ -1,22 +1,44 @@
+/*
+Dark Blue - #05376F
+
+*/
 body {
 	background-color: #ff6f59;
 	font-family: 'Overpass', sans-serif;
 	color: white;
 }
 
+/* UTILITY */
+.button {
+	width: 200px;
+	padding: 10px;
+	cursor: pointer;
+	text-align: center;
+}
+.button:hover {
+	text-decoration: none;
+}
+.button.primary {
+	background-color: #05376F;
+	color: #fff;
+}
+.button.primary:hover,
+.button.primary:focus,
+.button.primary:active {
+	color: #fff;
+	text-decoration: none;
+}
+
 #logoStyle {
 	padding-left: 10px;
 	padding-top: 10px;
 }
-
 .main {
 	margin-top: 7%; 
 }
-
 .texts {
 	text-align: right;
 }
-
 .texts > h3 {
 	text-align: right;
 	font-weight: 300;
@@ -68,35 +90,7 @@ a.controller:hover {
 	border: solid 2px #f9e700;
 }
 
-/*#image:hover {
-	opacity: 0.5;
-}
-
-.title-overlay {
-	position: absolute;
-	transition: .5s ease;
-	top: 20%;
-  left: 30%;
-  text-align:center;
-  display: none;
-  pointer-events: none;
-}
-
-.description-overlay {
-	position: absolute;
-	transition: .5s ease;
-	top: 40%;
-  left: 15%;
-  display: none;
-  pointer-events: none;
-}
-
-.continue {
-	display: none;
-}*/
-
 #mc_embed_signup input.button {
-	margin-top: 10px;
 	padding: 5px;
 	background-color: #f9e700;
 	color: black;
@@ -104,36 +98,38 @@ a.controller:hover {
 	font-size: 15px;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
 	text-transform: uppercase;
 	font-family: 'Overpass', sans-serif;
-	float: right;
 	padding: 10px 15px 10px 15px;
 }
 
 #mc_embed_signup input.button:hover {
-	transition: .5s ease;
 	color: black;
-	background-color:#d1c314;
-
 }
 
 #mc_embed_signup input.email {
+	width: 100%;
+	display: block;
 	border-style: solid;
 	border-color: white;
 	border-width: 1px;
-	float: right;
-	width: 50% !important;
-	height: 30px;
-	margin-left: 100%;
+	padding: 7px;
+	outline: none;
+}
+.user-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+.user-buttons .button:first-child {
+	margin-right: 10px;
 }
 
 input[type = text] {
-/*	width: 50%;*/
 	border: 1px solid white;
 	background-color: #ed7b65;
 }
-
 input[type = email] {
 	background-color: #ed7b65;
 }
@@ -158,93 +154,61 @@ input[type = email] {
 	transition: .5s ease;
 }
 
-
-
 @media (max-width: 575px) {
-
-	#object {
-		width: 30%;
-	}
-
-
-
 	body {
 		justify-content: center;
 	}
-
+	#object {
+		width: 30%;
+	}
 	#mc_embed_signup input.email {
 		float: none;
 		margin-left: 0%;
 	}
-
 	#mc_embed_signup input.button { 
 		float: none;
 	}
-
-	#mc_embed_signup_scroll {
-		text-align: center;
-	}
-
 	.slider {
 		display: none;
 	}
-
 	.main {
 		margin-top: 20%;
 		z-index: 2;
 	}
-
 	.texts > h1 {
 		text-align: center;
 		font-size: 35px;
-
 	}
-
 	.texts > h3 {
-		text-align:center;
-		/*padding-bottom: 5%;*/
+		text-align: center;
 	}
-
 }
 
 @media (min-width: 576px) {
-
-	
-
 	#mc_embed_signup input.email {
 		float: none;
 		margin-left: 0%;
 	}
-
 	#mc_embed_signup input.button { 
 		float: none;
 	}
-
-	#mc_embed_signup_scroll {
-		text-align: center;
-	}
-
 	.texts > h1 {
 		text-align: center;
 		font-weight: 900;
 		line-height: 65px;
 	}
-
 	.texts > h3 {
 		text-align: center;
 		font-weight: 300;
 		padding-left: 10%;
 		font-size: 20px;
 	}
-
 	.main {
 		margin-top: 20%; 
 	}
-
 	.slider {
 		display: none;
 	}
-
 }
 
 @media (min-width: 768px) {
@@ -256,41 +220,33 @@ input[type = email] {
 }
 
 @media (min-width: 992px) { 
-
 	.main {
 		margin-top: 7%; 
 	}
-
 	#object {
 		left: 78%;
-
 	}
-
 	.texts > h1 {
 		text-align: right;
 		font-weight: 900;
 		line-height: 65px;
 	}
-
 	.texts > h3 {
 		text-align: right;
 		font-weight: 300;
 		padding-left: 10%;
 		font-size: 20px;
+		margin-bottom: 30px;
 	}
-
 	.slider {
 		display: block;
 	}
-
 }
 
 @media (min-width: 1200px) {
-
 	#object {
 		left: 68%;
 	}
-
 }
 
 ::-webkit-input-placeholder {
