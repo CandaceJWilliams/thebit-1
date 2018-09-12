@@ -29,7 +29,8 @@ body {
 	text-decoration: none;
 }
 
-#logoStyle {
+.logo {
+	width: 300px;
 	padding-left: 10px;
 	padding-top: 10px;
 }
